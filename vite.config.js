@@ -1,14 +1,23 @@
-import { defineConfig } from "vite";
-import vue from "@vitejs/plugin-vue2";
+const Path = require('path');
 
-export default defineConfig({
-  plugins: [vue()],
-  server: {
-    port: 3000,
-  },
-  pluginOptions: {
-    electronBuilder: {
-      nodeIntegration: true
-    }
-  }
+const { defineConfig } = require('vite');
+const vuePlugin = require("@vitejs/plugin-vue2");
+
+/**
+ * https://vitejs.dev/config
+ */
+const config = defineConfig({
+    root: Path.join(__dirname, 'src', 'renderer'),
+    publicDir: 'public',
+    server: {
+        port: 8080,
+    },
+    open: true,
+    build: {
+        outDir: Path.join(__dirname, 'build', 'renderer'),
+        emptyOutDir: true,
+    },
+    plugins: [vuePlugin()],
 });
+
+module.exports = config;
