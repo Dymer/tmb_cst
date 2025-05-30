@@ -26,6 +26,10 @@
             item-value="id"
             label="Category"
         />
+        <v-text-field
+            v-model="unit"
+            label="Mértékegység"
+        />
       </v-card-text>
 
       <v-card-actions
@@ -53,19 +57,21 @@
 <script>
 import {mapState} from "pinia";
 import {useSettingsStore} from "../stores/settingsStore";
+import {v4 as uuidv4} from 'uuid'
 
 export default {
   name: "ProductEditDialog",
   data() {
     return {
-      dialog:false,
+      dialog: false,
       product: null,
       name: "",
+      unit: "db",
       price: 0,
       category: null,
     };
   },
-  computed : {
+  computed: {
     ...mapState(useSettingsStore, ["categories", "addProduct"]),
   },
   watch: {
@@ -74,10 +80,11 @@ export default {
         this.name = val.name;
         this.price = val.price;
         this.category = val.categoryId;
+        this.unit = val.unit;
       },
     }
   },
-  methods : {
+  methods: {
     openEditor(product) {
       this.product = product;
       this.dialog = true;
@@ -86,7 +93,9 @@ export default {
       this.product.name = this.name;
       this.product.price = this.price;
       this.product.categoryId = this.category;
-      if(this.product.isNew){
+      this.product.unit = this.unit;
+      if (this.product.isNew) {
+        this.product.id = uuidv4();
         this.addProduct(this.product);
       }
       this.dialog = false;

@@ -18,7 +18,7 @@
         <v-data-table
             :headers="headers"
             :items="products"
-            :items-per-page="5"
+            :items-per-page="10"
             class="elevation-1"
         >
           <template #item.actions="{ item }">
@@ -65,6 +65,8 @@ export default {
         {text: 'Ár', value: 'price'},
         {text: 'Kategória', value: 'category'},
         {text: 'Mértékegység', value: 'unit'},
+        {text: 'code', value: 'code'},
+        {text: 'id', value: 'id'},
       ],
     }
   },

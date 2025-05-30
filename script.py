@@ -5,9 +5,8 @@ import json
 import time
 
 def main():
-    # print to err or info
-    # print("Python script futott!", file=sys.stderr)
-    # print(f"Kapott paraméterek: {sys.argv[1:]}", file=sys.stderr)
+
+    MAX_RETRY = 3  # Maximum újrapróbálkozások száma
 
     # Alap URL
     base_url = "https://www.butorkellek.hu/index.php?kezd={}&mkod=" + sys.argv[1] + "&modul=termek"
@@ -16,27 +15,40 @@ def main():
 
     kezd = 0  # Kezdő index (első oldal: 0)
     leptek = 20  # Lapozás lépésköze (pl. 20 termék/oldal)
-    all_products = []  # Az összegyűjtött termékek listája
-
+    prev_first_product_id = None
+    should_break = False
     while True:
+        main_retires = 0
         url = base_url.format(kezd)
-        response = requests.get(url, headers=headers)
+        products = []
+        while main_retires < MAX_RETRY:
+            response = requests.get(url, headers=headers)
+            if response.status_code != 200:
+                print(f"Hiba a lekérdezés során! Státuszkód: {response.status_code}", file=sys.stderr)
+                break
 
-        if response.status_code != 200:
-            # print(f"Hiba a lekérdezés során! Státuszkód: {response.status_code}", file=sys.stderr)
+            soup = BeautifulSoup(response.text, "html.parser")
+            products = soup.select(".termek_brief1")
+
+            if products:
+                current_first_product_id = products[0].select_one("a")["href"].split("kod=")[1].split("&")[0]
+
+                if current_first_product_id == prev_first_product_id:
+                    print("Ismétlődő oldal detektálva, kilépés.", file=sys.stderr)
+                    should_break = True
+                    break
+
+                prev_first_product_id = current_first_product_id
+
+            if products:
+                break
+            else:
+                print(f"Üres válasz érkezett, újrapróbálkozás... ({main_retires + 1}/{MAX_RETRY})", file=sys.stderr)
+                main_retires += 1
+                time.sleep(1)
+
+        if should_break:
             break
-
-        soup = BeautifulSoup(response.text, "html.parser")
-
-        # Termékek kiválasztása
-        products = soup.select(".termek_brief1")
-
-        # Ha nincs több termék, kilépünk a ciklusból
-        if not products:
-            # print(f"Nincs több termék ({len(products)} találat), kilépés.", file=sys.stderr)
-            break
-
-        # print(f"Oldal {kezd // leptek + 1} - Talált termékek száma: {len(products)}", file=sys.stderr)
 
         for product in products:
             name_tag = product.select_one(".termeknev")
@@ -49,23 +61,41 @@ def main():
                 "index.php?kod = 7549 & modul = termek"
                 product_url = "https://www.butorkellek.hu/" + open_url
 
-                response2 = requests.get(product_url, headers=headers)
-                soup2 = BeautifulSoup(response2.text, "html.parser")
-                unit = soup2.select_one(".unit").text.strip()
+                product_retires = 0
+                while product_retires < MAX_RETRY:
+                    response2 = requests.get(product_url, headers=headers)
+                    soup2 = BeautifulSoup(response2.text, "html.parser")
+                    if response.status_code == 200 and soup2.select_one(".unit") != None:
+                        break
+                    else:
+                        print(f"Üres válasz érkezett a termék oldalról, újrapróbálkozás... ({product_retires + 1}/{MAX_RETRY})", file=sys.stderr)
+                        product_retires += 1
+                        time.sleep(1)
+
+
+
+                if response2.status_code != 200:
+                    print(f"Hiba a termék oldal lekérdezése során! Státuszkód: {response2.status_code}", file=sys.stderr)
+                    continue
+
+                unit = soup2.select_one(".unit")
                 product_id = open_url.split("kod=")[1].split("&")[0]
+                if unit != None:
+                    unitText = unit.text.strip()
 
-                product_json = {
-                    "id": product_id,
-                    "name": name,
-                    "price": price.replace("Ft", "").replace(" ", "").replace("\n", ""),
-                    "categoryId": sys.argv[2],
-                    "unit": unit
-                }
-                json_output = json.dumps(product_json, ensure_ascii=False)
-                print(json_output, flush=True)
+                    product_json = {
+                        "id": product_id,
+                        "name": name,
+                        "price": price.replace("Ft", "").replace(" ", "").replace("\n", ""),
+                        "categoryId": sys.argv[2],
+                        "unit": unitText,
+                        "code": sys.argv[1],
+                    }
+                    json_output = json.dumps(product_json, ensure_ascii=False)
+                    print(json_output, flush=True)
 
-                all_products.append(product_json)
-
+                else:
+                    print(f"Nincs egység a termékhez ({name}), termék_id: {product_id}", file=sys.stderr)
                 #print(f"Termék: {name}, product_id: {product_id}, Ár: {price}, unit: {unit}")
                 #print(open_url)
 
@@ -76,15 +106,17 @@ def main():
 
         kezd += leptek  # Következő oldal
 
+
     # Összes termék kiírása
     # print(f"\nÖsszes termék száma (minden oldal): {len(all_products)}", file=sys.stderr)
     # print json
-      # Az ensure_ascii=False megőrzi az ékezetes karaktereket
+    # Az ensure_ascii=False megőrzi az ékezetes karaktereket
 
     time.sleep(1)
 
     print(json.dumps({
         "state":"FINISHED",
+        "code": sys.argv[1],
         "categoryId": sys.argv[2]
     }),flush=True)
 

@@ -10,9 +10,9 @@
             <v-data-table
                 :headers="productHeaders"
                 :items="filteredProducts"
-                hide-default-footer
-                :items-per-page="-1"
+                :items-per-page="20"
                 dense
+                :footer-props="{ itemsPerPageOptions: [5, 10, 20, 50,100, -1] }"
                 group-by="categoryName">
 
               <template v-slot:body.prepend="{ props }">
