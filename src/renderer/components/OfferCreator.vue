@@ -81,13 +81,13 @@
                 </v-card-title>
                 <v-list>
                   <draggable class="list-group" handle=".drag-handle" v-bind="dragOptions" v-model="group.items">
-                    <v-list-item v-for="(item, index) in group.items" :key="item.id">
+                    <v-list-item v-for="item in group.items" :key="item.quoteItemId">
                       <v-row align="center">
                         <v-col cols="4">{{ item.name }}</v-col>
                         <v-col cols="3">
-                          <v-text-field v-model.number="item.quantity" type="number" dense></v-text-field>
+                          <v-text-field v-model.number="item.quantity" type="number" min="0" dense></v-text-field>
                         </v-col>
-                        <v-col cols="3">{{ item.price * item.quantity }} Ft</v-col>
+                        <v-col cols="3">{{ formatPrice(item.price * (item.quantity || 0)) }}</v-col>
                         <v-col cols="1">
                           <v-btn icon @click="removeFromGroup(group, item)">
                             <v-icon>mdi-delete</v-icon>
@@ -130,7 +130,7 @@
               <tr>
                 <td>
                   <v-text-field
-                      v-model="workFeePercentage"
+                      v-model.number="workFeePercentage"
                       label="Munkadíj százalékban"
                       class="mt-3"
                       dense
@@ -140,13 +140,13 @@
                   />
                 </td>
                 <td class="text-right">
-                  {{ formatPrice(totalPrice * workFeePercentage / 100) }}
+                  {{ formatPrice(workFeeAmount) }}
                 </td>
               </tr>
               <tr>
                 <td><strong>Végösszeg:</strong></td>
                 <td class="text-right">
-                  {{ formatPrice(totalPrice + (totalPrice * workFeePercentage / 100)) }}
+                  {{ formatPrice(totalPrice + workFeeAmount) }}
                 </td>
               </tr>
               </tbody>
@@ -175,6 +175,7 @@ import draggable from 'vuedraggable';
 import {mapState} from "pinia";
 import {useSettingsStore} from "../stores/settingsStore";
 import generateExcel from "../excelExport";
+import {v4 as uuidv4} from "uuid";
 
 export default {
   components: {
@@ -214,15 +215,18 @@ export default {
     ...mapState(useSettingsStore, ["products", "categories"]),
     filteredProducts() {
       return this.productsWithCategory
-          .filter(p => p.name.toLowerCase().includes(this.productFilter.toLowerCase()))
-          .filter(p => p.unit.toLowerCase().includes(this.unitFilter.toLowerCase()))
+          .filter(p => (p.name || '').toLowerCase().includes((this.productFilter || '').toLowerCase()))
+          .filter(p => (p.unit || '').toLowerCase().includes((this.unitFilter || '').toLowerCase()))
           ;
     },
     totalPrice() {
-      return this.groups.reduce((sum, group) => sum + group.items.reduce((gSum, item) => gSum + item.price * item.quantity, 0), 0);
+      return this.groups.reduce((sum, group) => sum + group.items.reduce((gSum, item) => gSum + (Number(item.price) || 0) * (Number(item.quantity) || 0), 0), 0);
     },
     productsWithCategory() {
       return this.products.map(p => ({...p, categoryName: this.getCategoryName(p.categoryId)}));
+    },
+    workFeeAmount() {
+      return this.totalPrice * (Number(this.workFeePercentage) || 0) / 100;
     },
     groupOptions() {
       return this.groups.map((group, index) => ({text: group.name || `Csoport ${index + 1}`, value: index}));
@@ -234,19 +238,26 @@ export default {
     },
     removeGroup(index) {
       this.groups.splice(index, 1);
+      if (this.selectedGroupIndex >= this.groups.length) {
+        this.selectedGroupIndex = Math.max(0, this.groups.length - 1);
+      }
     },
     addToQuote(product) {
-      if (this.selectedGroupIndex === null) return;
-      const currentGroup = this.groups[this.selectedGroupIndex];
+      if (this.groups.length === 0) {
+        this.groups.push({name: '', items: []});
+        this.selectedGroupIndex = 0;
+      }
+      const currentGroup = this.groups[this.selectedGroupIndex] || this.groups[0];
       const existing = currentGroup.items.find(p => p.id === product.id);
       if (existing) {
-        existing.quantity++;
+        existing.quantity = (Number(existing.quantity) || 0) + 1;
       } else {
-        currentGroup.items.push({...product, quantity: 1});
+        const {categoryName, ...item} = product;
+        currentGroup.items.push({...item, quoteItemId: uuidv4(), quantity: 1});
       }
     },
     removeFromGroup(group, item) {
-      group.items = group.items.filter(p => p.id !== item.id);
+      group.items = group.items.filter(p => p.quoteItemId !== item.quoteItemId);
     },
     generateQuote() {
       generateExcel({
@@ -254,6 +265,9 @@ export default {
         groups: this.groups,
         workFeePercentage: this.workFeePercentage,
         comment: this.comment
+      }).catch(err => {
+        console.error(err);
+        alert("Hiba az Excel fájl készítése során: " + err.message);
       })
     },
     getCategoryName(categoryId) {

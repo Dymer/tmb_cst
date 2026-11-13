@@ -7,7 +7,7 @@
         <v-btn
             color="primary"
             @click="$refs.editDialog.openEditor(
-                {id: getId(), name: '', price: 0, categoryId: null, isNew: true}
+                {id: getId(), name: '', price: 0, unit: 'db', categoryId: null, manual: true}
             )"
         >
           Új termék
@@ -63,7 +63,7 @@ export default {
           value: 'name',
         },
         {text: 'Ár', value: 'price'},
-        {text: 'Kategória', value: 'category'},
+        {text: 'Kategória', value: 'category', sortable: false},
         {text: 'Mértékegység', value: 'unit'},
         {text: 'code', value: 'code'},
         {text: 'id', value: 'id'},
@@ -86,7 +86,7 @@ export default {
 
     },
     getCategoryName(categoryId) {
-      return this.categories.find(category => category.id === categoryId).name
+      return this.categories.find(category => category.id === categoryId)?.name || ''
     },
     getId(){
       return uuidv4()

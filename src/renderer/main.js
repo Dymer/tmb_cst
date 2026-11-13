@@ -4,6 +4,8 @@ import router from './router'
 import { createPinia, PiniaVuePlugin } from 'pinia'
 import piniaPluginPersistedstate from 'pinia-plugin-persistedstate'
 import vuetify from './plugins/vuetify.js'
+import {useSettingsStore} from './stores/settingsStore'
+import {useSyncStore} from './stores/syncStore'
 
 import 'vuetify/dist/vuetify.min.css'
 import Toast from "vue-toastification";
@@ -22,6 +24,9 @@ Vue.use(PiniaVuePlugin)
 const pinia = createPinia()
 pinia.use(piniaPluginPersistedstate)
 Vue.use(pinia)
+
+useSettingsStore(pinia).migrate()
+useSyncStore(pinia).autoSync()
 
 export const TheApp = new Vue({
     router,

@@ -7,157 +7,125 @@
       </v-card-title>
 
       <v-card-text>
-        <v-btn
-            color="red"
-            @click="resetAllDataClicked"
-        >
-          Összes adat visszaállítása
-        </v-btn>
+        <p>
+          Az árakat egy szerveren futó program tölti le minden éjjel a butorkellek.hu-ról.
+          Itt ennek az eredményét lehet letölteni.
+        </p>
 
-        <v-text-field
-            v-model="concurrentLimit"
-            label="Maximális párhuzamos szinkronizálás"
-            type="number"
-        />
+        <v-simple-table dense class="mb-4">
+          <tbody>
+          <tr>
+            <td>Adatok frissítve a webshopból</td>
+            <td>{{ formatDate(dataGeneratedAt) }}</td>
+          </tr>
+          <tr>
+            <td>Utolsó letöltés</td>
+            <td>{{ formatDate(lastDownload) }}</td>
+          </tr>
+          <tr>
+            <td>Termékek száma</td>
+            <td>{{ products.length }} db</td>
+          </tr>
+          </tbody>
+        </v-simple-table>
+
+        <v-alert v-if="error" type="error" dense>
+          {{ error }}
+        </v-alert>
 
         <v-btn
             color="primary"
-            @click="startAllCategories"
-          >
-          Összes inditása
+            :loading="loading"
+            @click="sync"
+        >
+          <v-icon left>mdi-refresh</v-icon>
+          Árak letöltése
         </v-btn>
 
-        <v-list>
-          <v-list-item :key="category.name"
+        <v-list class="mt-4">
+          <v-subheader>Kategóriák</v-subheader>
+          <v-list-item :key="category.id"
                        v-for="category in categories"
           >
-            <v-list-item-title>
-              {{ category.name }}
-            </v-list-item-title>
-            <v-list-item-subtitle
-            >
-              Termék szám: {{ getProductCount(category) }} db
-            </v-list-item-subtitle>
-            <v-list-item-subtitle
-            >
-              Utoljára frissítve: {{ category.lastSync }}
-            </v-list-item-subtitle>
-            <v-list-item-action>
-              <v-progress-circular
-                  v-if="isCategoryLoading(category)"
-
-                  indeterminate
-              />
-
-              <v-btn
-                  v-else
-                  icon
-                  @click="refreshCategory(category)"
-              >
-                <v-icon>mdi-refresh</v-icon>
-              </v-btn>
-
-            </v-list-item-action>
+            <v-list-item-content>
+              <v-list-item-title>
+                {{ category.name }}
+                <v-chip v-if="category.stale" x-small color="warning" class="ml-2">
+                  régi adat
+                </v-chip>
+              </v-list-item-title>
+              <v-list-item-subtitle>
+                Termék szám: {{ getProductCount(category) }} db · M-kódok: {{ category.codes.join(', ') }}
+              </v-list-item-subtitle>
+            </v-list-item-content>
           </v-list-item>
         </v-list>
+
+        <v-expansion-panels flat class="mt-4">
+          <v-expansion-panel>
+            <v-expansion-panel-header>Haladó beállítások</v-expansion-panel-header>
+            <v-expansion-panel-content>
+              <v-text-field
+                  v-model="dataUrl"
+                  label="Adatforrás URL (products.json)"
+                  dense
+                  outlined
+              />
+              <v-btn small text @click="dataUrl = defaultDataUrl">Alapértelmezett URL</v-btn>
+              <v-btn
+                  color="red"
+                  small
+                  text
+                  @click="resetAllDataClicked"
+              >
+                Összes adat visszaállítása
+              </v-btn>
+            </v-expansion-panel-content>
+          </v-expansion-panel>
+        </v-expansion-panels>
       </v-card-text>
     </v-card>
   </v-container>
 </template>
 
 <script>
-import {useSettingsStore} from "../stores/settingsStore";
-import {mapActions, mapState} from "pinia";
-
-const {ipcRenderer} = require("electron");
-
+import {DEFAULT_DATA_URL, useSettingsStore} from "../stores/settingsStore";
+import {useSyncStore} from "../stores/syncStore";
+import {mapActions, mapState, mapWritableState} from "pinia";
 
 export default {
   name: "SynchSettings",
   data() {
     return {
-      loadingCodes: {},
-      concurrentLimit: 7,
+      defaultDataUrl: DEFAULT_DATA_URL,
     }
   },
   computed: {
-    ...mapState(useSettingsStore, ["categories", "products"]),
-  },
-  watch: {
-    loadingCodes: {
-      handler(newVal) {
-        console.log("Loading codes változás:", newVal);
-        const loadingNumber = Object.values(newVal).filter(val => val === "LOADING").length;
-        if (loadingNumber >= this.concurrentLimit) {
-          console.log("Valami még tölt...");
-          return;
-        }
-        const nextCode = Object.keys(newVal).find(code => newVal[code] === "WAITING");
-        if (!nextCode) {
-          console.log("Nincs több kód");
-          return;
-        }
-        const category = this.categories.find(cat => cat.codes.includes(nextCode));
-        console.log("Következő kód:", nextCode, " kategória:", category);
-        ipcRenderer.send("run-python", [nextCode, category.id]);
-        this.$set(this.loadingCodes, nextCode, "LOADING")
-      },
-      deep: true,
+    ...mapState(useSettingsStore, ["categories", "products", "dataGeneratedAt", "lastDownload"]),
+    ...mapWritableState(useSettingsStore, ["dataUrl"]),
+    ...mapState(useSyncStore, ["loading", "error"]),
+    productCounts() {
+      return this.products.reduce((counts, product) => {
+        counts[product.categoryId] = (counts[product.categoryId] || 0) + 1;
+        return counts;
+      }, {});
     },
-  },
-  mounted() {
-    ipcRenderer.on("python-response", (event, data) => {
-      console.log(data)
-      const resultData = JSON.parse(data)
-      if (resultData.state === "FINISHED") {
-        this.$set(this.loadingCodes, resultData.code, "FINISHED")
-      } else {
-        this.addProduct(resultData)
-        // if (!this.loadingCodes.includes(resultData.code)) {
-        //   this.loadingCodes.push(resultData.code)
-        // }
-      }
-
-    });
-    ipcRenderer.on("python-error", (event, data) => {
-      console.error(data)
-    });
-
   },
   methods: {
-    ...mapActions(useSettingsStore, ['deleteCategoryItemsFromProducts', 'updateSynchTime', 'reset', 'addProduct']),
-    refreshCategory(category) {
-      this.deleteCategoryItemsFromProducts(category.id)
-      category.codes.forEach(code => {
-        console.log("Feltöltés: ", code)
-        this.$set(this.loadingCodes, code, "WAITING")
-      })
-      console.log(this.loadingCodes)
-      this.updateSynchTime(category.id)
-    },
-
+    ...mapActions(useSettingsStore, ['reset']),
+    ...mapActions(useSyncStore, ['sync']),
     getProductCount(category) {
-      return this.products.filter(product => product.categoryId === category.id).length
+      return this.productCounts[category.id] || 0
+    },
+    formatDate(value) {
+      return value ? new Date(value).toLocaleString('hu-HU') : 'Soha';
     },
     resetAllDataClicked() {
-      if (confirm("Biztosan visszaállítod az összes adatot?")) {
+      if (confirm("Biztosan visszaállítod az összes adatot? A kézzel felvett termékek is törlődnek.")) {
         this.reset()
         window.location.reload();
       }
     },
-    isCategoryLoading(category) {
-      return category.codes.some(code => this.loadingCodes[code] === "LOADING" || this.loadingCodes[code] === "WAITING")
-    },
-    startAllCategories() {
-      this.categories.forEach(category => {
-        this.refreshCategory(category)
-      })
-    },
   }
 }
 </script>
-
-
-<style scoped>
-
-</style>

@@ -16,8 +16,9 @@
             label="Név"
         />
         <v-text-field
-            v-model="price"
+            v-model.number="price"
             label="Ár"
+            type="number"
         />
         <v-select
             v-model="category"
@@ -55,9 +56,8 @@
 </template>
 
 <script>
-import {mapState} from "pinia";
+import {mapActions, mapState} from "pinia";
 import {useSettingsStore} from "../stores/settingsStore";
-import {v4 as uuidv4} from 'uuid'
 
 export default {
   name: "ProductEditDialog",
@@ -72,32 +72,29 @@ export default {
     };
   },
   computed: {
-    ...mapState(useSettingsStore, ["categories", "addProduct"]),
-  },
-  watch: {
-    product: {
-      handler(val) {
-        this.name = val.name;
-        this.price = val.price;
-        this.category = val.categoryId;
-        this.unit = val.unit;
-      },
-    }
+    ...mapState(useSettingsStore, ["categories"]),
   },
   methods: {
+    ...mapActions(useSettingsStore, ["addProduct"]),
     openEditor(product) {
+      // Always reload the fields, so values from a cancelled edit don't remain
       this.product = product;
+      this.name = product.name || "";
+      this.price = product.price ?? 0;
+      this.category = product.categoryId ?? null;
+      this.unit = product.unit || "db";
       this.dialog = true;
     },
     saveProduct() {
-      this.product.name = this.name;
-      this.product.price = this.price;
-      this.product.categoryId = this.category;
-      this.product.unit = this.unit;
-      if (this.product.isNew) {
-        this.product.id = uuidv4();
-        this.addProduct(this.product);
-      }
+      const {isNew, ...original} = this.product;
+      // addProduct replaces an existing product (same id), or adds a new one
+      this.addProduct({
+        ...original,
+        name: this.name,
+        price: this.price,
+        categoryId: this.category,
+        unit: this.unit,
+      });
       this.dialog = false;
     }
   },

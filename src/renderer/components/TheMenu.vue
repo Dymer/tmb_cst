@@ -63,12 +63,6 @@ export default {
           route: '/offer'
         },
         {
-          icon: 'mdi-cogs',
-          label: 'Termek csoportok',
-          name:'categories',
-          route: '/categories'
-        },
-        {
           icon: 'mdi-chart-line',
           label: 'Szinkonizació',
           name:'synch',

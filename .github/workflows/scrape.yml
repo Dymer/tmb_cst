@@ -1,0 +1,49 @@
+name: Scrape products
+
+on:
+  schedule:
+    - cron: "0 1 * * *" # every night, 01:00 UTC
+  workflow_dispatch: # "Run workflow" button on the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scraper/requirements.txt
+
+      - run: pip install -r scraper/requirements.txt
+
+      - name: Download previously published data
+        run: |
+          if git fetch --depth=1 origin data; then
+            git show origin/data:products.json > previous.json
+          else
+            echo '{}' > previous.json
+          fi
+
+      - name: Scrape
+        run: python scraper/scrape.py --categories scraper/categories.json --previous previous.json --output out/products.json
+
+      - name: Publish to the "data" branch
+        working-directory: out
+        run: |
+          git init -q -b data
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add products.json
+          git commit -q -m "Products $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" data
