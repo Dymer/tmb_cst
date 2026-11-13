@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "0 1 * * *" # every night, 01:00 UTC
   workflow_dispatch: # "Run workflow" button on the Actions tab
+  push: # also run when the scraper or the category list changes
+    branches: [master]
+    paths:
+      - "scraper/**"
+      - ".github/workflows/scrape.yml"
 
 permissions:
   contents: write
