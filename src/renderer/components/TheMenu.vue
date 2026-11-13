@@ -6,8 +6,8 @@
       permanent
   >
     <v-list-item class="px-2">
-      <v-list-item-avatar>
-        <v-img src="https://randomuser.me/api/portraits/lego/7.jpg" />
+      <v-list-item-avatar color="primary">
+        <v-icon dark>mdi-saw-blade</v-icon>
       </v-list-item-avatar>
 
       <v-list-item-title>Timber Tibi</v-list-item-title>
@@ -54,17 +54,22 @@ export default {
     return {
       drawer: true,
       mini: true,
-      isMiniLogo: true,
       menuPoints: [
         {
           icon: 'mdi-file-document-edit',
-          label: 'Árajanlat készítő',
+          label: 'Árajánlat készítő',
           name:'offer',
           route: '/offer'
         },
         {
+          icon: 'mdi-folder-open',
+          label: 'Mentett ajánlatok',
+          name:'quotes',
+          route: '/quotes'
+        },
+        {
           icon: 'mdi-chart-line',
-          label: 'Szinkonizació',
+          label: 'Szinkronizáció',
           name:'synch',
           route: '/synch'
         },
@@ -75,12 +80,11 @@ export default {
           route: '/products'
         },
       ],
-      logoSrc : '/assets/logo.png'
     }
   },
   methods: {
     isSelected(item) {
-      return this.$route.name.toLowerCase() === item.name.toLowerCase()
+      return (this.$route.name || '').toLowerCase() === item.name.toLowerCase()
     },
   }
 }

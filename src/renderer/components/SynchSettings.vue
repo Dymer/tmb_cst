@@ -53,9 +53,19 @@
                 <v-chip v-if="category.stale" x-small color="warning" class="ml-2">
                   régi adat
                 </v-chip>
+                <v-chip
+                    v-if="category.missingUnitCount"
+                    x-small
+                    outlined
+                    color="warning"
+                    class="ml-2"
+                    title="A webshop ezeknél nem adott meg mértékegységet, „db”-nak feltételezve"
+                >
+                  {{ category.missingUnitCount }} termék mértékegysége hiányzik
+                </v-chip>
               </v-list-item-title>
               <v-list-item-subtitle>
-                Termék szám: {{ getProductCount(category) }} db · M-kódok: {{ category.codes.join(', ') }}
+                Termékszám: {{ getProductCount(category) }} db · M-kódok: {{ category.codes.join(', ') }}
               </v-list-item-subtitle>
             </v-list-item-content>
           </v-list-item>

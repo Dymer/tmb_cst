@@ -65,8 +65,8 @@ export default {
         {text: 'Ár', value: 'price'},
         {text: 'Kategória', value: 'category', sortable: false},
         {text: 'Mértékegység', value: 'unit'},
-        {text: 'code', value: 'code'},
-        {text: 'id', value: 'id'},
+        {text: 'M-kód', value: 'code'},
+        {text: 'Azonosító', value: 'id'},
       ],
     }
   },

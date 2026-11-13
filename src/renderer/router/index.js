@@ -23,6 +23,11 @@ const routes = [
                 component: () => import('../components/OfferCreator.vue')
             },
             {
+                path: '/quotes',
+                name: 'Quotes',
+                component: () => import('../components/QuoteList.vue')
+            },
+            {
                 path: '/synch',
                 name: 'Synch',
                 component: () => import('../components/SynchSettings.vue')

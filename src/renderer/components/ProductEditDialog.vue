@@ -8,7 +8,7 @@
           class="headline"
           primary-title
       >
-        Termék szerkesztés
+        Termék szerkesztése
       </v-card-title>
       <v-card-text>
         <v-text-field
@@ -25,7 +25,7 @@
             :items="categories"
             item-text="name"
             item-value="id"
-            label="Category"
+            label="Kategória"
         />
         <v-text-field
             v-model="unit"

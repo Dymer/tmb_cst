@@ -25,6 +25,7 @@ MAX_RETRY = 3
 TIMEOUT = 30
 PAGE_SIZE = 20
 DELAY = 0.5  # seconds between requests, to be polite with the shop
+DEFAULT_UNIT = "db"
 HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; tmbcst-price-sync)"}
 
 session = requests.Session()
@@ -130,21 +131,28 @@ def scrape_code(code, category_id, unit_cache):
                 continue
 
             unit = unit_cache.get(product_id)
+            unit_missing = False
             if not unit:
                 unit = fetch_unit(BASE + href)
-                if not unit:
-                    log(f"  Nincs egység: {name} (kod={product_id})")
-                    continue
-                unit_cache[product_id] = unit
+                if unit:
+                    unit_cache[product_id] = unit
+                else:
+                    # Keep the product instead of dropping it; the app flags the guessed unit
+                    log(f"  Nincs egység, 'db' feltételezve: {name} (kod={product_id})")
+                    unit = DEFAULT_UNIT
+                    unit_missing = True
 
-            results.append({
+            item = {
                 "id": product_id,
                 "name": name,
                 "price": price,
                 "categoryId": category_id,
                 "unit": unit,
                 "code": code,
-            })
+            }
+            if unit_missing:
+                item["unitMissing"] = True
+            results.append(item)
 
         if len(products) < PAGE_SIZE:
             break
@@ -177,7 +185,8 @@ def main():
 
     previous = load_json(args.previous, {})
     previous_products = previous.get("products", []) if isinstance(previous, dict) else []
-    unit_cache = {p["id"]: p["unit"] for p in previous_products if p.get("unit")}
+    # Guessed units are not cached, so they are looked up again next time
+    unit_cache = {p["id"]: p["unit"] for p in previous_products if p.get("unit") and not p.get("unitMissing")}
 
     products = {}
     category_info = []
@@ -203,7 +212,12 @@ def main():
         for p in category_products:
             products.setdefault(p["id"], p)
         log(f"  {len(category_products)} termék")
-        category_info.append({**category, "productCount": len(category_products), "stale": stale})
+        category_info.append({
+            **category,
+            "productCount": len(category_products),
+            "missingUnitCount": sum(1 for p in category_products if p.get("unitMissing")),
+            "stale": stale,
+        })
 
     if failed == len(categories):
         log("Minden kategória hibára futott, nincs mit publikálni.")
