@@ -14,7 +14,7 @@ export function quoteTotals(quote) {
     return {subtotal, workFee, total: subtotal + workFee};
 }
 
-const priceFormatter = new Intl.NumberFormat('hu-HU', {style: 'currency', currency: 'HUF', maximumFractionDigits: 0});
+const priceFormatter = new Intl.NumberFormat('hu-HU', {style: 'currency', currency: 'HUF', minimumFractionDigits: 0, maximumFractionDigits: 0});
 
 export function formatPrice(price) {
     return priceFormatter.format(toNumber(price));

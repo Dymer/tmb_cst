@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "vitest run"
   },
   "keywords": [],
   "author": "",
@@ -47,6 +48,7 @@
     "typescript": "^5.2.2",
     "vite": "^3.0.0",
     "vite-plugin-checker": "^0.5.4",
-    "vite-plugin-eslint": "1.8.1"
+    "vite-plugin-eslint": "1.8.1",
+    "vitest": "^0.24.5"
   }
 }

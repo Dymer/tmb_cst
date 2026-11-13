@@ -58,6 +58,19 @@ def log(message):
     print(message, file=sys.stderr, flush=True)
 
 
+def decode_html(response):
+    """
+    The shop declares its encoding (iso-8859-2) only in a <meta> tag, not in the
+    HTTP header. Without a header charset requests assumes iso-8859-1, which turns
+    "ő"/"ű" into "õ"/"û". Use the <meta> charset (falling back to iso-8859-2).
+    """
+    content_type = response.headers.get("Content-Type", "").lower()
+    if "charset=" not in content_type:
+        match = re.search(rb"""<meta[^>]+charset=["']?([\w-]+)""", response.content[:4096], re.IGNORECASE)
+        response.encoding = match.group(1).decode("ascii") if match else "iso-8859-2"
+    return response.text
+
+
 def fetch(url):
     """GET with retries and back-off; returns the HTML text or None."""
     for attempt in range(1, MAX_RETRY + 1):
@@ -65,7 +78,7 @@ def fetch(url):
         try:
             response = session.get(url, timeout=TIMEOUT)
             if response.status_code == 200:
-                return response.text
+                return decode_html(response)
             log(f"  HTTP {response.status_code}: {url} ({attempt}/{MAX_RETRY})")
         except requests.RequestException as e:
             log(f"  Hálózati hiba: {url}: {e} ({attempt}/{MAX_RETRY})")
@@ -112,6 +125,7 @@ def fetch_unit(product_url):
 
 def scrape_code(code, category_id, unit_cache):
     """All products of one shop category code. Raises RuntimeError on hard failure."""
+    code = str(code).strip()  # categories.json may contain numbers
     base_url = BASE + "index.php?kezd={}&mkod=" + code + "&modul=termek"
     results = []
     offset = 0
@@ -209,7 +223,7 @@ def main():
     failed = 0
 
     for category in categories:
-        log(f"{category['name']} ({', '.join(category['codes'])})")
+        log(f"{category['name']} ({', '.join(map(str, category['codes']))})")
         category_products = []
         error = None
         try:

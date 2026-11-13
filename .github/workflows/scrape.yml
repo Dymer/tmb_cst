@@ -8,6 +8,8 @@ on:
     branches: [master]
     paths:
       - "scraper/**"
+      - "!scraper/tests/**"
+      - "!scraper/requirements-dev.txt"
       - ".github/workflows/scrape.yml"
 
 permissions:
@@ -30,12 +32,15 @@ jobs:
           cache: pip
           cache-dependency-path: scraper/requirements.txt
 
-      - run: pip install -r scraper/requirements.txt
+      - run: pip install -r scraper/requirements.txt -r scraper/requirements-dev.txt
+
+      - name: Test the scraper
+        run: python -m pytest scraper/tests -q
 
       - name: Download previously published data
         run: |
           if git fetch --depth=1 origin data; then
-            git show origin/data:products.json > previous.json
+            git show FETCH_HEAD:products.json > previous.json
           else
             echo '{}' > previous.json
           fi
