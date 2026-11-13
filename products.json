@@ -1,0 +1,5208 @@
+{
+ "generatedAt": "2026-11-13T15:20:32+00:00",
+ "categories": [
+  {
+   "id": "0de8377f-5775-4668-be4a-5f1633d24a5f",
+   "name": "Sziloplasztok",
+   "codes": [
+    "391"
+   ],
+   "productCount": 33,
+   "missingUnitCount": 0,
+   "stale": false
+  },
+  {
+   "id": "1a2b3c4d-5e6f-7081-9a0b-1c2d3e4f5g6h",
+   "name": "Faipari ragasztók",
+   "codes": [
+    "390"
+   ],
+   "productCount": 20,
+   "missingUnitCount": 0,
+   "stale": false
+  },
+  {
+   "id": "2b3c4d5e-6f70-819a-0b1c-2d3e4f5g6h7i",
+   "name": "Bútorfüggesztők",
+   "codes": [
+    "281"
+   ],
+   "productCount": 22,
+   "missingUnitCount": 0,
+   "stale": false
+  },
+  {
+   "id": "3c4d5e6f-7081-9a0b-1c2d-3e4f5g6h7i8j",
+   "name": "Sarok, egyenes és szegletvasak",
+   "codes": [
+    "518"
+   ],
+   "productCount": 8,
+   "missingUnitCount": 0,
+   "stale": false
+  },
+  {
+   "id": "4d5e6f70-819a-0b1c-2d3e-4f5g6h7i8j9k",
+   "name": "Műanyag és fatiplik, lamellók, dübelek",
+   "codes": [
+    "517"
+   ],
+   "productCount": 29,
+   "missingUnitCount": 0,
+   "stale": false
+  },
+  {
+   "id": "5e6f7081-9a0b-1c2d-3e4f-5g6h7i8j9k0l",
+   "name": "Fa és forgácslap csavarok",
+   "codes": [
+    "522"
+   ],
+   "productCount": 8,
+   "missingUnitCount": 0,
+   "stale": false
+  },
+  {
+   "id": "6f70819a-0b1c-2d3e-4f5g-6h7i8j9k0l1m",
+   "name": "Dani tolóajtó rendszer",
+   "codes": [
+    "329"
+   ],
+   "productCount": 33,
+   "missingUnitCount": 0,
+   "stale": false
+  },
+  {
+   "id": "7g8h9i0j-1k2l-3m4n-5o6p-7q8r9s0t1u2v",
+   "name": "Syma 32 + Syma 14",
+   "codes": [
+    "32"
+   ],
+   "productCount": 25,
+   "missingUnitCount": 0,
+   "stale": false
+  },
+  {
+   "id": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "name": "Pántok, zsanérok",
+   "codes": [
+    "223"
+   ],
+   "productCount": 47,
+   "missingUnitCount": 0,
+   "stale": false
+  },
+  {
+   "id": "9i0j1k2l-3m4n-5o6p-7q8r-9s0t1u2v3w4x",
+   "name": "Gázteleszkópok bútorajtóhoz",
+   "codes": [
+    "459"
+   ],
+   "productCount": 5,
+   "missingUnitCount": 0,
+   "stale": false
+  },
+  {
+   "id": "0j1k2l3m-4n5o-6p7q-8r9s-0t1u2v3w4x5y",
+   "name": "Bútorvasalat széles választéka",
+   "codes": [
+    "458"
+   ],
+   "productCount": 4,
+   "missingUnitCount": 0,
+   "stale": false
+  },
+  {
+   "id": "1k2l3m4n-5o6p-7q8r-9s0t-1u2v3w4x5y6z",
+   "name": "Vertex fiókrendszer",
+   "codes": [
+    "621"
+   ],
+   "productCount": 9,
+   "missingUnitCount": 0,
+   "stale": false
+  },
+  {
+   "id": "2l3m4n5o-6p7q-8r9s-0t1u-2v3w4x5y6z7a",
+   "name": "Akasztórudak és tartók",
+   "codes": [
+    "450"
+   ],
+   "productCount": 23,
+   "missingUnitCount": 0,
+   "stale": false
+  },
+  {
+   "id": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "name": "Fém bútorfogantyúk",
+   "codes": [
+    "696"
+   ],
+   "productCount": 134,
+   "missingUnitCount": 1,
+   "stale": false
+  },
+  {
+   "id": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "name": "Fém bútorgombok",
+   "codes": [
+    "697"
+   ],
+   "productCount": 51,
+   "missingUnitCount": 0,
+   "stale": false
+  },
+  {
+   "id": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "name": "Szintezőlábak és kiegészítők",
+   "codes": [
+    "294"
+   ],
+   "productCount": 49,
+   "missingUnitCount": 1,
+   "stale": false
+  },
+  {
+   "id": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "name": "Kivetőpántok",
+   "codes": [
+    "19",
+    "496",
+    "498",
+    "499",
+    "500",
+    "501",
+    "502",
+    "503",
+    "504",
+    "505",
+    "506",
+    "507",
+    "508",
+    "510",
+    "509",
+    "565",
+    "497",
+    "511"
+   ],
+   "productCount": 109,
+   "missingUnitCount": 1,
+   "stale": false
+  },
+  {
+   "id": "487a3d4b-41b4-4635-a939-5b6f6ab7652e",
+   "name": "Fiók sínek",
+   "codes": [
+    "21",
+    "23",
+    "192",
+    "22",
+    "194",
+    "195",
+    "199",
+    "133",
+    "201",
+    "200"
+   ],
+   "productCount": 29,
+   "missingUnitCount": 0,
+   "stale": false
+  }
+ ],
+ "products": [
+  {
+   "id": "1354",
+   "name": "Sziloplaszt Fischer DSSI szaniter",
+   "price": 2075,
+   "categoryId": "0de8377f-5775-4668-be4a-5f1633d24a5f",
+   "unit": "db",
+   "code": "391"
+  },
+  {
+   "id": "4758",
+   "name": "Sziloplaszt Illbruck FA101 neutrális színtelen",
+   "price": 2725,
+   "categoryId": "0de8377f-5775-4668-be4a-5f1633d24a5f",
+   "unit": "db",
+   "code": "391"
+  },
+  {
+   "id": "4987",
+   "name": "Sziloplaszt Fischer DA akril tömítőanyag",
+   "price": 943,
+   "categoryId": "0de8377f-5775-4668-be4a-5f1633d24a5f",
+   "unit": "db",
+   "code": "391"
+  },
+  {
+   "id": "5941",
+   "name": "Sziloplaszt Technobond Univerzális",
+   "price": 1353,
+   "categoryId": "0de8377f-5775-4668-be4a-5f1633d24a5f",
+   "unit": "db",
+   "code": "391"
+  },
+  {
+   "id": "6345",
+   "name": "Sziloplaszt Technobond Neutrális",
+   "price": 2189,
+   "categoryId": "0de8377f-5775-4668-be4a-5f1633d24a5f",
+   "unit": "db",
+   "code": "391"
+  },
+  {
+   "id": "6245",
+   "name": "Sziloplaszt Tytan Univerzális",
+   "price": 2900,
+   "categoryId": "0de8377f-5775-4668-be4a-5f1633d24a5f",
+   "unit": "db",
+   "code": "391"
+  },
+  {
+   "id": "14816",
+   "name": "Szilikon Somafix tubusos univerzális, S52",
+   "price": 1128,
+   "categoryId": "0de8377f-5775-4668-be4a-5f1633d24a5f",
+   "unit": "db",
+   "code": "391"
+  },
+  {
+   "id": "7421",
+   "name": "Sziloplaszt SomaFix neutrális színtelen S260",
+   "price": 2158,
+   "categoryId": "0de8377f-5775-4668-be4a-5f1633d24a5f",
+   "unit": "db",
+   "code": "391"
+  },
+  {
+   "id": "7344",
+   "name": "Sziloplaszt SomaFix neutrális fehér S261",
+   "price": 2100,
+   "categoryId": "0de8377f-5775-4668-be4a-5f1633d24a5f",
+   "unit": "db",
+   "code": "391"
+  },
+  {
+   "id": "7345",
+   "name": "Szerelési ragasztó SomaFix S580 Hybrid-Polimer",
+   "price": 2794,
+   "categoryId": "0de8377f-5775-4668-be4a-5f1633d24a5f",
+   "unit": "db",
+   "code": "391"
+  },
+  {
+   "id": "7356",
+   "name": "Sziloplaszt Somafix rugalmas akril S190",
+   "price": 1855,
+   "categoryId": "0de8377f-5775-4668-be4a-5f1633d24a5f",
+   "unit": "db",
+   "code": "391"
+  },
+  {
+   "id": "7357",
+   "name": "Sziloplaszt Somafix hurkás neutrális színtelen S620",
+   "price": 3587,
+   "categoryId": "0de8377f-5775-4668-be4a-5f1633d24a5f",
+   "unit": "db",
+   "code": "391"
+  },
+  {
+   "id": "7461",
+   "name": "Sziloplaszt Somafix szaniter átlátszó",
+   "price": 2039,
+   "categoryId": "0de8377f-5775-4668-be4a-5f1633d24a5f",
+   "unit": "db",
+   "code": "391"
+  },
+  {
+   "id": "7462",
+   "name": "Sziloplaszt Somafix szaniter fehér",
+   "price": 2039,
+   "categoryId": "0de8377f-5775-4668-be4a-5f1633d24a5f",
+   "unit": "db",
+   "code": "391"
+  },
+  {
+   "id": "7537",
+   "name": "Sziloplaszt Fischer AC szerelő ragasztó (MK)",
+   "price": 1737,
+   "categoryId": "0de8377f-5775-4668-be4a-5f1633d24a5f",
+   "unit": "db",
+   "code": "391"
+  },
+  {
+   "id": "14401",
+   "name": "Sziloplaszt Fischer DBSI építő szilikon",
+   "price": 2435,
+   "categoryId": "0de8377f-5775-4668-be4a-5f1633d24a5f",
+   "unit": "db",
+   "code": "391"
+  },
+  {
+   "id": "14400",
+   "name": "Sziloplaszt Fischer DBSA építőszilikon (tükörragasztó)",
+   "price": 3789,
+   "categoryId": "0de8377f-5775-4668-be4a-5f1633d24a5f",
+   "unit": "db",
+   "code": "391"
+  },
+  {
+   "id": "14339",
+   "name": "Sziloplaszt Mfix Fix építési ragasztó",
+   "price": 2469,
+   "categoryId": "0de8377f-5775-4668-be4a-5f1633d24a5f",
+   "unit": "db",
+   "code": "391"
+  },
+  {
+   "id": "14340",
+   "name": "Sziloplaszt Fija Plus Turbo MS-Polymer",
+   "price": 4191,
+   "categoryId": "0de8377f-5775-4668-be4a-5f1633d24a5f",
+   "unit": "db",
+   "code": "391"
+  },
+  {
+   "id": "14984",
+   "name": "Soudal tömítőanyag eltávolító, (0699)",
+   "price": 4241,
+   "categoryId": "0de8377f-5775-4668-be4a-5f1633d24a5f",
+   "unit": "db",
+   "code": "391"
+  },
+  {
+   "id": "14988",
+   "name": "Soudal szilikon szaniter STOP, (0036)",
+   "price": 1792,
+   "categoryId": "0de8377f-5775-4668-be4a-5f1633d24a5f",
+   "unit": "db",
+   "code": "391"
+  },
+  {
+   "id": "14990",
+   "name": "Soudal szilikon Fix-All Crystal, (9549)",
+   "price": 537665,
+   "categoryId": "0de8377f-5775-4668-be4a-5f1633d24a5f",
+   "unit": "db",
+   "code": "391"
+  },
+  {
+   "id": "14991",
+   "name": "Soudal szilikon akril, (9272)",
+   "price": 825,
+   "categoryId": "0de8377f-5775-4668-be4a-5f1633d24a5f",
+   "unit": "db",
+   "code": "391"
+  },
+  {
+   "id": "14992",
+   "name": "Soudal szilikon Fix-All Flexi classic, (5163)",
+   "price": 3498,
+   "categoryId": "0de8377f-5775-4668-be4a-5f1633d24a5f",
+   "unit": "db",
+   "code": "391"
+  },
+  {
+   "id": "14999",
+   "name": "Soudal szilikon univerzális, (6828)",
+   "price": 133336,
+   "categoryId": "0de8377f-5775-4668-be4a-5f1633d24a5f",
+   "unit": "db",
+   "code": "391"
+  },
+  {
+   "id": "14996",
+   "name": "Sziloplaszt pisztoly Soudal, (9462)",
+   "price": 7697,
+   "categoryId": "0de8377f-5775-4668-be4a-5f1633d24a5f",
+   "unit": "db",
+   "code": "391"
+  },
+  {
+   "id": "15114",
+   "name": "Soudal szilikon Fix-All High Tack",
+   "price": 5062,
+   "categoryId": "0de8377f-5775-4668-be4a-5f1633d24a5f",
+   "unit": "db",
+   "code": "391"
+  },
+  {
+   "id": "15115",
+   "name": "Soudal szilikon T-Rex Strong",
+   "price": 393786,
+   "categoryId": "0de8377f-5775-4668-be4a-5f1633d24a5f",
+   "unit": "db",
+   "code": "391"
+  },
+  {
+   "id": "15116",
+   "name": "Soudal szilikon Montage Fix",
+   "price": 2442,
+   "categoryId": "0de8377f-5775-4668-be4a-5f1633d24a5f",
+   "unit": "db",
+   "code": "391"
+  },
+  {
+   "id": "15118",
+   "name": "Soudal szilikon neutrális barna 290ml",
+   "price": 2833,
+   "categoryId": "0de8377f-5775-4668-be4a-5f1633d24a5f",
+   "unit": "db",
+   "code": "391"
+  },
+  {
+   "id": "15120",
+   "name": "Soudal szilikon T-Rex Azonnali Tapadás",
+   "price": 3981,
+   "categoryId": "0de8377f-5775-4668-be4a-5f1633d24a5f",
+   "unit": "db",
+   "code": "391"
+  },
+  {
+   "id": "15121",
+   "name": "Soudal szilikonos tömítő szalag",
+   "price": 1977,
+   "categoryId": "0de8377f-5775-4668-be4a-5f1633d24a5f",
+   "unit": "db",
+   "code": "391"
+  },
+  {
+   "id": "15453",
+   "name": "Soudal szilikon neutrális színtelen 280ml",
+   "price": 2002,
+   "categoryId": "0de8377f-5775-4668-be4a-5f1633d24a5f",
+   "unit": "db",
+   "code": "391"
+  },
+  {
+   "id": "1339",
+   "name": "Ragasztó Technobond D2 express beltéri",
+   "price": 600,
+   "categoryId": "1a2b3c4d-5e6f-7081-9a0b-1c2d3e4f5g6h",
+   "unit": "db",
+   "code": "390"
+  },
+  {
+   "id": "1340",
+   "name": "Ragasztó Technobond D3 vízálló",
+   "price": 1180,
+   "categoryId": "1a2b3c4d-5e6f-7081-9a0b-1c2d3e4f5g6h",
+   "unit": "db",
+   "code": "390"
+  },
+  {
+   "id": "1344",
+   "name": "Ragasztó Technopur D4 express vízálló",
+   "price": 3654,
+   "categoryId": "1a2b3c4d-5e6f-7081-9a0b-1c2d3e4f5g6h",
+   "unit": "db",
+   "code": "390"
+  },
+  {
+   "id": "4394",
+   "name": "Ragasztó Pálmatex",
+   "price": 2151,
+   "categoryId": "1a2b3c4d-5e6f-7081-9a0b-1c2d3e4f5g6h",
+   "unit": "db",
+   "code": "390"
+  },
+  {
+   "id": "1365",
+   "name": "Ragasztórúd Högert",
+   "price": 205,
+   "categoryId": "1a2b3c4d-5e6f-7081-9a0b-1c2d3e4f5g6h",
+   "unit": "db",
+   "code": "390"
+  },
+  {
+   "id": "5882",
+   "name": "Munkalap ragasztó Unika",
+   "price": 1893,
+   "categoryId": "1a2b3c4d-5e6f-7081-9a0b-1c2d3e4f5g6h",
+   "unit": "db",
+   "code": "390"
+  },
+  {
+   "id": "6059",
+   "name": "Felülettisztító spray",
+   "price": 3086,
+   "categoryId": "1a2b3c4d-5e6f-7081-9a0b-1c2d3e4f5g6h",
+   "unit": "db",
+   "code": "390"
+  },
+  {
+   "id": "6060",
+   "name": "Ragasztó kontakt, T-Pren-Uni",
+   "price": 2880,
+   "categoryId": "1a2b3c4d-5e6f-7081-9a0b-1c2d3e4f5g6h",
+   "unit": "db",
+   "code": "390"
+  },
+  {
+   "id": "6596",
+   "name": "Ragasztó ömledék Q611 natur",
+   "price": 79724,
+   "categoryId": "1a2b3c4d-5e6f-7081-9a0b-1c2d3e4f5g6h",
+   "unit": "db",
+   "code": "390"
+  },
+  {
+   "id": "6699",
+   "name": "Ragasztó Milesi D3 vizálló",
+   "price": 149797,
+   "categoryId": "1a2b3c4d-5e6f-7081-9a0b-1c2d3e4f5g6h",
+   "unit": "db",
+   "code": "390"
+  },
+  {
+   "id": "6700",
+   "name": "Ragasztó Milesi D4 víz és főzésálló",
+   "price": 299508,
+   "categoryId": "1a2b3c4d-5e6f-7081-9a0b-1c2d3e4f5g6h",
+   "unit": "db",
+   "code": "390"
+  },
+  {
+   "id": "7279",
+   "name": "Ragasztó Spray eltávolító és felülettisztító MFiX X Clean",
+   "price": 3086,
+   "categoryId": "1a2b3c4d-5e6f-7081-9a0b-1c2d3e4f5g6h",
+   "unit": "db",
+   "code": "390"
+  },
+  {
+   "id": "7280",
+   "name": "Ragasztó Spray eltávolító és felülettisztító MFiX X Clean szórófej",
+   "price": 432,
+   "categoryId": "1a2b3c4d-5e6f-7081-9a0b-1c2d3e4f5g6h",
+   "unit": "db",
+   "code": "390"
+  },
+  {
+   "id": "15151",
+   "name": "Ragasztó Spray MFIX kontakt BLP 400",
+   "price": 2057,
+   "categoryId": "1a2b3c4d-5e6f-7081-9a0b-1c2d3e4f5g6h",
+   "unit": "db",
+   "code": "390"
+  },
+  {
+   "id": "7465",
+   "name": "Ragasztó Spray MFIX kontakt BLP 900",
+   "price": 3498,
+   "categoryId": "1a2b3c4d-5e6f-7081-9a0b-1c2d3e4f5g6h",
+   "unit": "db",
+   "code": "390"
+  },
+  {
+   "id": "7708",
+   "name": "Ragasztó Spray Somafix univerzális S38",
+   "price": 2284,
+   "categoryId": "1a2b3c4d-5e6f-7081-9a0b-1c2d3e4f5g6h",
+   "unit": "db",
+   "code": "390"
+  },
+  {
+   "id": "14983",
+   "name": "Ragasztó Spray Soudabond 280, (2525)",
+   "price": 2356,
+   "categoryId": "1a2b3c4d-5e6f-7081-9a0b-1c2d3e4f5g6h",
+   "unit": "db",
+   "code": "390"
+  },
+  {
+   "id": "14987",
+   "name": "Ragasztó Soudal D3 vízálló, (1696)",
+   "price": 1583,
+   "categoryId": "1a2b3c4d-5e6f-7081-9a0b-1c2d3e4f5g6h",
+   "unit": "db",
+   "code": "390"
+  },
+  {
+   "id": "15000",
+   "name": "Ragasztó Spray Soudabond 215, (3577)",
+   "price": 1764,
+   "categoryId": "1a2b3c4d-5e6f-7081-9a0b-1c2d3e4f5g6h",
+   "unit": "db",
+   "code": "390"
+  },
+  {
+   "id": "5402",
+   "name": "Bútorakasztó Camar 806 takarósapka balos",
+   "price": 131,
+   "categoryId": "2b3c4d5e-6f70-819a-0b1c-2d3e4f5g6h7i",
+   "unit": "db",
+   "code": "281"
+  },
+  {
+   "id": "5403",
+   "name": "Bútorakasztó Camar 806 takarósapka jobbos",
+   "price": 131,
+   "categoryId": "2b3c4d5e-6f70-819a-0b1c-2d3e4f5g6h7i",
+   "unit": "db",
+   "code": "281"
+  },
+  {
+   "id": "1312",
+   "name": "Bútorakasztó, Camar sín",
+   "price": 1917,
+   "categoryId": "2b3c4d5e-6f70-819a-0b1c-2d3e4f5g6h7i",
+   "unit": "db",
+   "code": "281"
+  },
+  {
+   "id": "15126",
+   "name": "Bútorakasztó CAMAR 806 jobbos - Új készletes",
+   "price": 416,
+   "categoryId": "2b3c4d5e-6f70-819a-0b1c-2d3e4f5g6h7i",
+   "unit": "db",
+   "code": "281"
+  },
+  {
+   "id": "15127",
+   "name": "Bútorakasztó CAMAR 806 balos - Új készletes",
+   "price": 416,
+   "categoryId": "2b3c4d5e-6f70-819a-0b1c-2d3e4f5g6h7i",
+   "unit": "db",
+   "code": "281"
+  },
+  {
+   "id": "15128",
+   "name": "Bútorakasztó CAMAR 806 takarósapka balos - Új készletes",
+   "price": 103,
+   "categoryId": "2b3c4d5e-6f70-819a-0b1c-2d3e4f5g6h7i",
+   "unit": "db",
+   "code": "281"
+  },
+  {
+   "id": "15129",
+   "name": "Bútorakasztó CAMAR 806 takarósapka jobbos - Új készletes",
+   "price": 87,
+   "categoryId": "2b3c4d5e-6f70-819a-0b1c-2d3e4f5g6h7i",
+   "unit": "db",
+   "code": "281"
+  },
+  {
+   "id": "1307",
+   "name": "Bútorakasztó IKEA",
+   "price": 172,
+   "categoryId": "2b3c4d5e-6f70-819a-0b1c-2d3e4f5g6h7i",
+   "unit": "db",
+   "code": "281"
+  },
+  {
+   "id": "4096",
+   "name": "Bútorakasztó IKEA II.",
+   "price": 198,
+   "categoryId": "2b3c4d5e-6f70-819a-0b1c-2d3e4f5g6h7i",
+   "unit": "db",
+   "code": "281"
+  },
+  {
+   "id": "1306",
+   "name": "Bútorakasztó excenteres",
+   "price": 336,
+   "categoryId": "2b3c4d5e-6f70-819a-0b1c-2d3e4f5g6h7i",
+   "unit": "db",
+   "code": "281"
+  },
+  {
+   "id": "4100",
+   "name": "Bútorakasztó egyenes",
+   "price": 62,
+   "categoryId": "2b3c4d5e-6f70-819a-0b1c-2d3e4f5g6h7i",
+   "unit": "db",
+   "code": "281"
+  },
+  {
+   "id": "1315",
+   "name": "Bútorakasztó hajlított",
+   "price": 195,
+   "categoryId": "2b3c4d5e-6f70-819a-0b1c-2d3e4f5g6h7i",
+   "unit": "db",
+   "code": "281"
+  },
+  {
+   "id": "5405",
+   "name": "Bútorakasztó, kör",
+   "price": 61,
+   "categoryId": "2b3c4d5e-6f70-819a-0b1c-2d3e4f5g6h7i",
+   "unit": "db",
+   "code": "281"
+  },
+  {
+   "id": "7281",
+   "name": "Szekrényfüggesztő 704 jobbos",
+   "price": 512,
+   "categoryId": "2b3c4d5e-6f70-819a-0b1c-2d3e4f5g6h7i",
+   "unit": "db",
+   "code": "281"
+  },
+  {
+   "id": "7282",
+   "name": "Szekrényfüggesztő 704 balos",
+   "price": 571,
+   "categoryId": "2b3c4d5e-6f70-819a-0b1c-2d3e4f5g6h7i",
+   "unit": "db",
+   "code": "281"
+  },
+  {
+   "id": "7283",
+   "name": "Szekrényfüggesztő 704 takarósapka 801 jobbos",
+   "price": 87,
+   "categoryId": "2b3c4d5e-6f70-819a-0b1c-2d3e4f5g6h7i",
+   "unit": "db",
+   "code": "281"
+  },
+  {
+   "id": "7284",
+   "name": "Szekrényfüggesztő 704 takarósapka 801 balos",
+   "price": 87,
+   "categoryId": "2b3c4d5e-6f70-819a-0b1c-2d3e4f5g6h7i",
+   "unit": "db",
+   "code": "281"
+  },
+  {
+   "id": "7416",
+   "name": "Alsószekrény függesztő 807 balos",
+   "price": 1434,
+   "categoryId": "2b3c4d5e-6f70-819a-0b1c-2d3e4f5g6h7i",
+   "unit": "db",
+   "code": "281"
+  },
+  {
+   "id": "7417",
+   "name": "Alsószekrény függesztő 807 jobbos",
+   "price": 1434,
+   "categoryId": "2b3c4d5e-6f70-819a-0b1c-2d3e4f5g6h7i",
+   "unit": "db",
+   "code": "281"
+  },
+  {
+   "id": "7418",
+   "name": "Alsószekrény függesztő sín 897",
+   "price": 589,
+   "categoryId": "2b3c4d5e-6f70-819a-0b1c-2d3e4f5g6h7i",
+   "unit": "db",
+   "code": "281"
+  },
+  {
+   "id": "7419",
+   "name": "Alsószekrény függesztő 807 takarósapka balos",
+   "price": 110,
+   "categoryId": "2b3c4d5e-6f70-819a-0b1c-2d3e4f5g6h7i",
+   "unit": "db",
+   "code": "281"
+  },
+  {
+   "id": "7420",
+   "name": "Alsószekrény függesztő 807 takarósapka jobbos",
+   "price": 110,
+   "categoryId": "2b3c4d5e-6f70-819a-0b1c-2d3e4f5g6h7i",
+   "unit": "db",
+   "code": "281"
+  },
+  {
+   "id": "1277",
+   "name": "Sarokvas",
+   "price": 21,
+   "categoryId": "3c4d5e6f-7081-9a0b-1c2d-3e4f5g6h7i8j",
+   "unit": "db",
+   "code": "518"
+  },
+  {
+   "id": "1551",
+   "name": "Sarokvas, erősített",
+   "price": 340,
+   "categoryId": "3c4d5e6f-7081-9a0b-1c2d-3e4f5g6h7i8j",
+   "unit": "db",
+   "code": "518"
+  },
+  {
+   "id": "3414",
+   "name": "Sarokvas \"T\"",
+   "price": 114,
+   "categoryId": "3c4d5e6f-7081-9a0b-1c2d-3e4f5g6h7i8j",
+   "unit": "db",
+   "code": "518"
+  },
+  {
+   "id": "1280",
+   "name": "Egyenes vas",
+   "price": 36,
+   "categoryId": "3c4d5e6f-7081-9a0b-1c2d-3e4f5g6h7i8j",
+   "unit": "db",
+   "code": "518"
+  },
+  {
+   "id": "1278",
+   "name": "Szegletvas",
+   "price": 71,
+   "categoryId": "3c4d5e6f-7081-9a0b-1c2d-3e4f5g6h7i8j",
+   "unit": "db",
+   "code": "518"
+  },
+  {
+   "id": "7400",
+   "name": "Oszloptalp",
+   "price": 3750,
+   "categoryId": "3c4d5e6f-7081-9a0b-1c2d-3e4f5g6h7i8j",
+   "unit": "db",
+   "code": "518"
+  },
+  {
+   "id": "14358",
+   "name": "Sarokvas  100x150mm",
+   "price": 244,
+   "categoryId": "3c4d5e6f-7081-9a0b-1c2d-3e4f5g6h7i8j",
+   "unit": "db",
+   "code": "518"
+  },
+  {
+   "id": "14357",
+   "name": "Sarokvas erősített 70x70x55mm",
+   "price": 163,
+   "categoryId": "3c4d5e6f-7081-9a0b-1c2d-3e4f5g6h7i8j",
+   "unit": "db",
+   "code": "518"
+  },
+  {
+   "id": "4897",
+   "name": "Tipli Fischer Duopower",
+   "price": 59,
+   "categoryId": "4d5e6f70-819a-0b1c-2d3e-4f5g6h7i8j9k",
+   "unit": "db",
+   "code": "517"
+  },
+  {
+   "id": "2217",
+   "name": "Tipli Fischer FU",
+   "price": 111,
+   "categoryId": "4d5e6f70-819a-0b1c-2d3e-4f5g6h7i8j9k",
+   "unit": "db",
+   "code": "517"
+  },
+  {
+   "id": "2218",
+   "name": "Tipli Fischer GB",
+   "price": 603,
+   "categoryId": "4d5e6f70-819a-0b1c-2d3e-4f5g6h7i8j9k",
+   "unit": "db",
+   "code": "517"
+  },
+  {
+   "id": "2335",
+   "name": "Tipli Fischer GK",
+   "price": 137,
+   "categoryId": "4d5e6f70-819a-0b1c-2d3e-4f5g6h7i8j9k",
+   "unit": "db",
+   "code": "517"
+  },
+  {
+   "id": "3421",
+   "name": "Tipli Fischer SX",
+   "price": 16,
+   "categoryId": "4d5e6f70-819a-0b1c-2d3e-4f5g6h7i8j9k",
+   "unit": "db",
+   "code": "517"
+  },
+  {
+   "id": "2219",
+   "name": "Tipli Fischer UX",
+   "price": 60,
+   "categoryId": "4d5e6f70-819a-0b1c-2d3e-4f5g6h7i8j9k",
+   "unit": "db",
+   "code": "517"
+  },
+  {
+   "id": "1818",
+   "name": "Tipli gipszkarton spirál",
+   "price": 41,
+   "categoryId": "4d5e6f70-819a-0b1c-2d3e-4f5g6h7i8j9k",
+   "unit": "db",
+   "code": "517"
+  },
+  {
+   "id": "1819",
+   "name": "Tipli gipszkarton szárnyas",
+   "price": 47,
+   "categoryId": "4d5e6f70-819a-0b1c-2d3e-4f5g6h7i8j9k",
+   "unit": "db",
+   "code": "517"
+  },
+  {
+   "id": "6566",
+   "name": "Tipli gipszkarton szárnyas dupla",
+   "price": 57,
+   "categoryId": "4d5e6f70-819a-0b1c-2d3e-4f5g6h7i8j9k",
+   "unit": "db",
+   "code": "517"
+  },
+  {
+   "id": "4365",
+   "name": "Tipli műanyag hengeres kék",
+   "price": 18,
+   "categoryId": "4d5e6f70-819a-0b1c-2d3e-4f5g6h7i8j9k",
+   "unit": "db",
+   "code": "517"
+  },
+  {
+   "id": "1816",
+   "name": "Tipli műanyag hengeres szürke",
+   "price": 951,
+   "categoryId": "4d5e6f70-819a-0b1c-2d3e-4f5g6h7i8j9k",
+   "unit": "db",
+   "code": "517"
+  },
+  {
+   "id": "1815",
+   "name": "Tipli műanyag hengeres sárga",
+   "price": 385,
+   "categoryId": "4d5e6f70-819a-0b1c-2d3e-4f5g6h7i8j9k",
+   "unit": "db",
+   "code": "517"
+  },
+  {
+   "id": "1814",
+   "name": "Tipli műanyag szögletes fehér",
+   "price": 315,
+   "categoryId": "4d5e6f70-819a-0b1c-2d3e-4f5g6h7i8j9k",
+   "unit": "db",
+   "code": "517"
+  },
+  {
+   "id": "4518",
+   "name": "Tipli gipszkarton fém önfúró",
+   "price": 45,
+   "categoryId": "4d5e6f70-819a-0b1c-2d3e-4f5g6h7i8j9k",
+   "unit": "db",
+   "code": "517"
+  },
+  {
+   "id": "1273",
+   "name": "Fatipli, darabolt",
+   "price": 2632,
+   "categoryId": "4d5e6f70-819a-0b1c-2d3e-4f5g6h7i8j9k",
+   "unit": "kg",
+   "code": "517"
+  },
+  {
+   "id": "1274-4303",
+   "name": "Száltipli sima",
+   "price": 450,
+   "categoryId": "4d5e6f70-819a-0b1c-2d3e-4f5g6h7i8j9k",
+   "unit": "db",
+   "code": "517"
+  },
+  {
+   "id": "5357",
+   "name": "Száltipli, bordás",
+   "price": 326,
+   "categoryId": "4d5e6f70-819a-0b1c-2d3e-4f5g6h7i8j9k",
+   "unit": "db",
+   "code": "517"
+  },
+  {
+   "id": "1275",
+   "name": "Lamello",
+   "price": 12,
+   "categoryId": "4d5e6f70-819a-0b1c-2d3e-4f5g6h7i8j9k",
+   "unit": "db",
+   "code": "517"
+  },
+  {
+   "id": "2877",
+   "name": "FISCHER Feszítődübel EA",
+   "price": 48,
+   "categoryId": "4d5e6f70-819a-0b1c-2d3e-4f5g6h7i8j9k",
+   "unit": "db",
+   "code": "517"
+  },
+  {
+   "id": "5353",
+   "name": "Lépcsőrögzítő Koelner LSM (vashoz)",
+   "price": 262,
+   "categoryId": "4d5e6f70-819a-0b1c-2d3e-4f5g6h7i8j9k",
+   "unit": "db",
+   "code": "517"
+  },
+  {
+   "id": "2493",
+   "name": "Lépcsőrögzítő Koelner LSB (betonhoz)",
+   "price": 243,
+   "categoryId": "4d5e6f70-819a-0b1c-2d3e-4f5g6h7i8j9k",
+   "unit": "db",
+   "code": "517"
+  },
+  {
+   "id": "5355",
+   "name": "Tipli, Fischer SX L (hosszú)",
+   "price": 62,
+   "categoryId": "4d5e6f70-819a-0b1c-2d3e-4f5g6h7i8j9k",
+   "unit": "db",
+   "code": "517"
+  },
+  {
+   "id": "5356",
+   "name": "Tipli, gipszkarton, önfúró műanyag Koelner",
+   "price": 22,
+   "categoryId": "4d5e6f70-819a-0b1c-2d3e-4f5g6h7i8j9k",
+   "unit": "db",
+   "code": "517"
+  },
+  {
+   "id": "5358",
+   "name": "Tipli, Fischer FID50",
+   "price": 338,
+   "categoryId": "4d5e6f70-819a-0b1c-2d3e-4f5g6h7i8j9k",
+   "unit": "db",
+   "code": "517"
+  },
+  {
+   "id": "5359",
+   "name": "Rögzítődübel, lamellás, Fischer FUR-SS (Hatlapfejű)",
+   "price": 379,
+   "categoryId": "4d5e6f70-819a-0b1c-2d3e-4f5g6h7i8j9k",
+   "unit": "db",
+   "code": "517"
+  },
+  {
+   "id": "2225",
+   "name": "Szitadübel FIS H",
+   "price": 497,
+   "categoryId": "4d5e6f70-819a-0b1c-2d3e-4f5g6h7i8j9k",
+   "unit": "db",
+   "code": "517"
+  },
+  {
+   "id": "6313",
+   "name": "Tipli műanyag",
+   "price": 14,
+   "categoryId": "4d5e6f70-819a-0b1c-2d3e-4f5g6h7i8j9k",
+   "unit": "db",
+   "code": "517"
+  },
+  {
+   "id": "6587",
+   "name": "Tipli Koelner univerzális",
+   "price": 11,
+   "categoryId": "4d5e6f70-819a-0b1c-2d3e-4f5g6h7i8j9k",
+   "unit": "db",
+   "code": "517"
+  },
+  {
+   "id": "7784",
+   "name": "Tipli Fischer SX Plus",
+   "price": 46,
+   "categoryId": "4d5e6f70-819a-0b1c-2d3e-4f5g6h7i8j9k",
+   "unit": "db",
+   "code": "517"
+  },
+  {
+   "id": "1287-203",
+   "name": "Csavar Koelner fa-forg. PZ",
+   "price": 438,
+   "categoryId": "5e6f7081-9a0b-1c2d-3e4f-5g6h7i8j9k0l",
+   "unit": "db",
+   "code": "522"
+  },
+  {
+   "id": "1288",
+   "name": "Csavar, JETTING fa-forg. PZ",
+   "price": 362,
+   "categoryId": "5e6f7081-9a0b-1c2d-3e4f-5g6h7i8j9k0l",
+   "unit": "db",
+   "code": "522"
+  },
+  {
+   "id": "6136",
+   "name": "Csavar Mustad Fa-forgácslap PZ",
+   "price": 317,
+   "categoryId": "5e6f7081-9a0b-1c2d-3e4f-5g6h7i8j9k0l",
+   "unit": "db",
+   "code": "522"
+  },
+  {
+   "id": "7706",
+   "name": "Csavar Mustad fa-forg. PZ",
+   "price": 529,
+   "categoryId": "5e6f7081-9a0b-1c2d-3e4f-5g6h7i8j9k0l",
+   "unit": "db",
+   "code": "522"
+  },
+  {
+   "id": "6139",
+   "name": "Csavar Mustad Fa-forgácslap Torx",
+   "price": 425,
+   "categoryId": "5e6f7081-9a0b-1c2d-3e4f-5g6h7i8j9k0l",
+   "unit": "db",
+   "code": "522"
+  },
+  {
+   "id": "6275",
+   "name": "Csavar Mustad Fa-forgácslap Torx részmenetes",
+   "price": 13,
+   "categoryId": "5e6f7081-9a0b-1c2d-3e4f-5g6h7i8j9k0l",
+   "unit": "db",
+   "code": "522"
+  },
+  {
+   "id": "6689",
+   "name": "Csavar Mustad Fa-forgácslap-MDF PZ",
+   "price": 26,
+   "categoryId": "5e6f7081-9a0b-1c2d-3e4f-5g6h7i8j9k0l",
+   "unit": "db",
+   "code": "522"
+  },
+  {
+   "id": "7707",
+   "name": "Csavar Mustad D fejű Torx",
+   "price": 18,
+   "categoryId": "5e6f7081-9a0b-1c2d-3e4f-5g6h7i8j9k0l",
+   "unit": "db",
+   "code": "522"
+  },
+  {
+   "id": "4911",
+   "name": "Fogantyú profil Stella",
+   "price": 3574,
+   "categoryId": "6f70819a-0b1c-2d3e-4f5g-6h7i8j9k0l1m",
+   "unit": "db",
+   "code": "329"
+  },
+  {
+   "id": "6234",
+   "name": "Fogantyú profil Eco",
+   "price": 4969,
+   "categoryId": "6f70819a-0b1c-2d3e-4f5g-6h7i8j9k0l1m",
+   "unit": "db",
+   "code": "329"
+  },
+  {
+   "id": "6253",
+   "name": "Fogantyú profil Zara",
+   "price": 6669,
+   "categoryId": "6f70819a-0b1c-2d3e-4f5g-6h7i8j9k0l1m",
+   "unit": "db",
+   "code": "329"
+  },
+  {
+   "id": "6254",
+   "name": "Fogantyú profil Léna",
+   "price": 8752,
+   "categoryId": "6f70819a-0b1c-2d3e-4f5g-6h7i8j9k0l1m",
+   "unit": "db",
+   "code": "329"
+  },
+  {
+   "id": "4916",
+   "name": "Fogantyú profil Nero",
+   "price": 5672,
+   "categoryId": "6f70819a-0b1c-2d3e-4f5g-6h7i8j9k0l1m",
+   "unit": "db",
+   "code": "329"
+  },
+  {
+   "id": "4928",
+   "name": "Tolóajtó Dani alsó sín",
+   "price": 3923,
+   "categoryId": "6f70819a-0b1c-2d3e-4f5g-6h7i8j9k0l1m",
+   "unit": "db",
+   "code": "329"
+  },
+  {
+   "id": "13707",
+   "name": "Tolóajtó Dani, alsó sín \"N\"",
+   "price": 3629,
+   "categoryId": "6f70819a-0b1c-2d3e-4f5g-6h7i8j9k0l1m",
+   "unit": "db",
+   "code": "329"
+  },
+  {
+   "id": "4931",
+   "name": "Tolóajtó Dani alsó sín takaró",
+   "price": 1569,
+   "categoryId": "6f70819a-0b1c-2d3e-4f5g-6h7i8j9k0l1m",
+   "unit": "db",
+   "code": "329"
+  },
+  {
+   "id": "4990",
+   "name": "Tolóajtó Dani felső sín",
+   "price": 7410,
+   "categoryId": "6f70819a-0b1c-2d3e-4f5g-6h7i8j9k0l1m",
+   "unit": "db",
+   "code": "329"
+  },
+  {
+   "id": "4994",
+   "name": "Tolóajtó Dani egypályás alsó sín",
+   "price": 2301,
+   "categoryId": "6f70819a-0b1c-2d3e-4f5g-6h7i8j9k0l1m",
+   "unit": "db",
+   "code": "329"
+  },
+  {
+   "id": "4995",
+   "name": "Tolóajtó Dani egypályás felső sín",
+   "price": 5475,
+   "categoryId": "6f70819a-0b1c-2d3e-4f5g-6h7i8j9k0l1m",
+   "unit": "db",
+   "code": "329"
+  },
+  {
+   "id": "5009",
+   "name": "Tolóajtó Dani görgőszett",
+   "price": 2702,
+   "categoryId": "6f70819a-0b1c-2d3e-4f5g-6h7i8j9k0l1m",
+   "unit": "db",
+   "code": "329"
+  },
+  {
+   "id": "6765",
+   "name": "Tolóajtó Dani rugós görgőszett",
+   "price": 2572,
+   "categoryId": "6f70819a-0b1c-2d3e-4f5g-6h7i8j9k0l1m",
+   "unit": "db",
+   "code": "329"
+  },
+  {
+   "id": "6182",
+   "name": "Tolóajtó Dani excentrikus rejtett görgőszett",
+   "price": 3504,
+   "categoryId": "6f70819a-0b1c-2d3e-4f5g-6h7i8j9k0l1m",
+   "unit": "db",
+   "code": "329"
+  },
+  {
+   "id": "6255",
+   "name": "Tolóajtó Dani szimmetrikus rejtett görgőszett",
+   "price": 3504,
+   "categoryId": "6f70819a-0b1c-2d3e-4f5g-6h7i8j9k0l1m",
+   "unit": "db",
+   "code": "329"
+  },
+  {
+   "id": "5013",
+   "name": "Tolóajtó Dani önbehúzó fék",
+   "price": 3478,
+   "categoryId": "6f70819a-0b1c-2d3e-4f5g-6h7i8j9k0l1m",
+   "unit": "db",
+   "code": "329"
+  },
+  {
+   "id": "6163",
+   "name": "Tolóajtó Dani önbehúzó fék középső ajtóhoz",
+   "price": 21009,
+   "categoryId": "6f70819a-0b1c-2d3e-4f5g-6h7i8j9k0l1m",
+   "unit": "db",
+   "code": "329"
+  },
+  {
+   "id": "5014",
+   "name": "Tolóajtó Dani alsó stopper",
+   "price": 157,
+   "categoryId": "6f70819a-0b1c-2d3e-4f5g-6h7i8j9k0l1m",
+   "unit": "db",
+   "code": "329"
+  },
+  {
+   "id": "6373",
+   "name": "Tolóajtó Dani felső stopper",
+   "price": 323,
+   "categoryId": "6f70819a-0b1c-2d3e-4f5g-6h7i8j9k0l1m",
+   "unit": "db",
+   "code": "329"
+  },
+  {
+   "id": "5007",
+   "name": "Tolóajtó Dani C profil",
+   "price": 2354,
+   "categoryId": "6f70819a-0b1c-2d3e-4f5g-6h7i8j9k0l1m",
+   "unit": "db",
+   "code": "329"
+  },
+  {
+   "id": "5001",
+   "name": "Tolóajtó Dani L profil kicsi",
+   "price": 2511,
+   "categoryId": "6f70819a-0b1c-2d3e-4f5g-6h7i8j9k0l1m",
+   "unit": "db",
+   "code": "329"
+  },
+  {
+   "id": "5002",
+   "name": "Tolóajtó Dani L profil peremes",
+   "price": 2683,
+   "categoryId": "6f70819a-0b1c-2d3e-4f5g-6h7i8j9k0l1m",
+   "unit": "db",
+   "code": "329"
+  },
+  {
+   "id": "5003",
+   "name": "Tolóajtó Dani T profil kicsi",
+   "price": 3138,
+   "categoryId": "6f70819a-0b1c-2d3e-4f5g-6h7i8j9k0l1m",
+   "unit": "db",
+   "code": "329"
+  },
+  {
+   "id": "5004",
+   "name": "Tolóajtó Dani T profil peremes 17x19mm",
+   "price": 3189,
+   "categoryId": "6f70819a-0b1c-2d3e-4f5g-6h7i8j9k0l1m",
+   "unit": "db",
+   "code": "329"
+  },
+  {
+   "id": "6252",
+   "name": "Tolóajtó Dani, H profil kicsi",
+   "price": 3400,
+   "categoryId": "6f70819a-0b1c-2d3e-4f5g-6h7i8j9k0l1m",
+   "unit": "db",
+   "code": "329"
+  },
+  {
+   "id": "5005",
+   "name": "Tolóajtó Dani H profil peremes",
+   "price": 4591,
+   "categoryId": "6f70819a-0b1c-2d3e-4f5g-6h7i8j9k0l1m",
+   "unit": "db",
+   "code": "329"
+  },
+  {
+   "id": "4996",
+   "name": "Tolóajtó Dani alsó összekötő profil",
+   "price": 13338,
+   "categoryId": "6f70819a-0b1c-2d3e-4f5g-6h7i8j9k0l1m",
+   "unit": "db",
+   "code": "329"
+  },
+  {
+   "id": "4997",
+   "name": "Tolóajtó Dani felső összekötő profil",
+   "price": 7218,
+   "categoryId": "6f70819a-0b1c-2d3e-4f5g-6h7i8j9k0l1m",
+   "unit": "db",
+   "code": "329"
+  },
+  {
+   "id": "5016",
+   "name": "Üvegtömítés 10/4mm szimmetrikus",
+   "price": 5987,
+   "categoryId": "6f70819a-0b1c-2d3e-4f5g-6h7i8j9k0l1m",
+   "unit": "fm",
+   "code": "329"
+  },
+  {
+   "id": "5017",
+   "name": "Tolóajtó Dani üvegrögzítő",
+   "price": 96,
+   "categoryId": "6f70819a-0b1c-2d3e-4f5g-6h7i8j9k0l1m",
+   "unit": "db",
+   "code": "329"
+  },
+  {
+   "id": "5018",
+   "name": "Tolóajtó Dani öntapadós porkefe",
+   "price": 175,
+   "categoryId": "6f70819a-0b1c-2d3e-4f5g-6h7i8j9k0l1m",
+   "unit": "fm",
+   "code": "329"
+  },
+  {
+   "id": "5019",
+   "name": "Tolóajtó Dani befűzhető porkefe",
+   "price": 52,
+   "categoryId": "6f70819a-0b1c-2d3e-4f5g-6h7i8j9k0l1m",
+   "unit": "fm",
+   "code": "329"
+  },
+  {
+   "id": "6032",
+   "name": "Tolóajtó Dani befűzhető széles porkefe",
+   "price": 130,
+   "categoryId": "6f70819a-0b1c-2d3e-4f5g-6h7i8j9k0l1m",
+   "unit": "fm",
+   "code": "329"
+  },
+  {
+   "id": "3412",
+   "name": "Talpas görgő műanyag 30mm",
+   "price": 216,
+   "categoryId": "7g8h9i0j-1k2l-3m4n-5o6p-7q8r9s0t1u2v",
+   "unit": "db",
+   "code": "32"
+  },
+  {
+   "id": "1077",
+   "name": "Talpas görgő műanyag 50mm",
+   "price": 200,
+   "categoryId": "7g8h9i0j-1k2l-3m4n-5o6p-7q8r9s0t1u2v",
+   "unit": "db",
+   "code": "32"
+  },
+  {
+   "id": "3247",
+   "name": "Talpas görgő fékes műanyag 50mm",
+   "price": 230,
+   "categoryId": "7g8h9i0j-1k2l-3m4n-5o6p-7q8r9s0t1u2v",
+   "unit": "db",
+   "code": "32"
+  },
+  {
+   "id": "5203",
+   "name": "Gumis talpas műanyag görgő",
+   "price": 738,
+   "categoryId": "7g8h9i0j-1k2l-3m4n-5o6p-7q8r9s0t1u2v",
+   "unit": "db",
+   "code": "32"
+  },
+  {
+   "id": "1071",
+   "name": "Műanyag görgő, élre szerelhető",
+   "price": 280,
+   "categoryId": "7g8h9i0j-1k2l-3m4n-5o6p-7q8r9s0t1u2v",
+   "unit": "db",
+   "code": "32"
+  },
+  {
+   "id": "1078",
+   "name": "Görgő műanyag hüvelyes 50mm 9,5-es szárral",
+   "price": 469,
+   "categoryId": "7g8h9i0j-1k2l-3m4n-5o6p-7q8r9s0t1u2v",
+   "unit": "db",
+   "code": "32"
+  },
+  {
+   "id": "1079",
+   "name": "Görgő műanyag csapos 50mm 11-es szárral",
+   "price": 512,
+   "categoryId": "7g8h9i0j-1k2l-3m4n-5o6p-7q8r9s0t1u2v",
+   "unit": "db",
+   "code": "32"
+  },
+  {
+   "id": "1080",
+   "name": "Görgő műanyag egyenes",
+   "price": 89,
+   "categoryId": "7g8h9i0j-1k2l-3m4n-5o6p-7q8r9s0t1u2v",
+   "unit": "db",
+   "code": "32"
+  },
+  {
+   "id": "6057",
+   "name": "Görgő műanyag egyenes 37mm oldalra szerelhető",
+   "price": 295,
+   "categoryId": "7g8h9i0j-1k2l-3m4n-5o6p-7q8r9s0t1u2v",
+   "unit": "db",
+   "code": "32"
+  },
+  {
+   "id": "1083",
+   "name": "Görgő műanyag süllyesztett",
+   "price": 1290,
+   "categoryId": "7g8h9i0j-1k2l-3m4n-5o6p-7q8r9s0t1u2v",
+   "unit": "db",
+   "code": "32"
+  },
+  {
+   "id": "5118",
+   "name": "Gumis görgő BH talpas",
+   "price": 685,
+   "categoryId": "7g8h9i0j-1k2l-3m4n-5o6p-7q8r9s0t1u2v",
+   "unit": "db",
+   "code": "32"
+  },
+  {
+   "id": "5119",
+   "name": "Gumis görgő BH talpas fékes",
+   "price": 795,
+   "categoryId": "7g8h9i0j-1k2l-3m4n-5o6p-7q8r9s0t1u2v",
+   "unit": "db",
+   "code": "32"
+  },
+  {
+   "id": "2555",
+   "name": "Gumis görgő talpas sima",
+   "price": 610,
+   "categoryId": "7g8h9i0j-1k2l-3m4n-5o6p-7q8r9s0t1u2v",
+   "unit": "db",
+   "code": "32"
+  },
+  {
+   "id": "2556",
+   "name": "Gumis görgő talpas fékes",
+   "price": 731,
+   "categoryId": "7g8h9i0j-1k2l-3m4n-5o6p-7q8r9s0t1u2v",
+   "unit": "db",
+   "code": "32"
+  },
+  {
+   "id": "2553",
+   "name": "Gumis görgő talpas sima",
+   "price": 864,
+   "categoryId": "7g8h9i0j-1k2l-3m4n-5o6p-7q8r9s0t1u2v",
+   "unit": "db",
+   "code": "32"
+  },
+  {
+   "id": "2554",
+   "name": "Gumis görgő talpas fékes",
+   "price": 967,
+   "categoryId": "7g8h9i0j-1k2l-3m4n-5o6p-7q8r9s0t1u2v",
+   "unit": "db",
+   "code": "32"
+  },
+  {
+   "id": "2974",
+   "name": "Gumis görgő egyenes",
+   "price": 230,
+   "categoryId": "7g8h9i0j-1k2l-3m4n-5o6p-7q8r9s0t1u2v",
+   "unit": "db",
+   "code": "32"
+  },
+  {
+   "id": "7691",
+   "name": "Gumis görgő talpas, GIRA 60mm króm-fekete",
+   "price": 3641,
+   "categoryId": "7g8h9i0j-1k2l-3m4n-5o6p-7q8r9s0t1u2v",
+   "unit": "db",
+   "code": "32"
+  },
+  {
+   "id": "7692",
+   "name": "Gumis görgő talpas, GIRA 60mm fékes",
+   "price": 3975,
+   "categoryId": "7g8h9i0j-1k2l-3m4n-5o6p-7q8r9s0t1u2v",
+   "unit": "db",
+   "code": "32"
+  },
+  {
+   "id": "6335",
+   "name": "Gumis görgő szürke fékes",
+   "price": 2960,
+   "categoryId": "7g8h9i0j-1k2l-3m4n-5o6p-7q8r9s0t1u2v",
+   "unit": "db",
+   "code": "32"
+  },
+  {
+   "id": "6336",
+   "name": "Gumis görgő szürke fék nélkül",
+   "price": 1990,
+   "categoryId": "7g8h9i0j-1k2l-3m4n-5o6p-7q8r9s0t1u2v",
+   "unit": "db",
+   "code": "32"
+  },
+  {
+   "id": "6662",
+   "name": "Gumis görgő talpas 63mm",
+   "price": 1886,
+   "categoryId": "7g8h9i0j-1k2l-3m4n-5o6p-7q8r9s0t1u2v",
+   "unit": "db",
+   "code": "32"
+  },
+  {
+   "id": "6663",
+   "name": "Gumis görgő talpas fékes 63mm",
+   "price": 2238,
+   "categoryId": "7g8h9i0j-1k2l-3m4n-5o6p-7q8r9s0t1u2v",
+   "unit": "db",
+   "code": "32"
+  },
+  {
+   "id": "7549",
+   "name": "Görgő gumis egyenes 150mm",
+   "price": 3220,
+   "categoryId": "7g8h9i0j-1k2l-3m4n-5o6p-7q8r9s0t1u2v",
+   "unit": "db",
+   "code": "32"
+  },
+  {
+   "id": "7550",
+   "name": "Görgő gumis talpas 150mm",
+   "price": 3990,
+   "categoryId": "7g8h9i0j-1k2l-3m4n-5o6p-7q8r9s0t1u2v",
+   "unit": "db",
+   "code": "32"
+  },
+  {
+   "id": "4617",
+   "name": "Felnyíló pánt műanyag (pár)",
+   "price": 1750,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "pár",
+   "code": "223"
+  },
+  {
+   "id": "4531",
+   "name": "Pánt lenyíló 26mm",
+   "price": 1572,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "db",
+   "code": "223"
+  },
+  {
+   "id": "1293",
+   "name": "Játszóasztalpánt",
+   "price": 991,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "db",
+   "code": "223"
+  },
+  {
+   "id": "1292",
+   "name": "Játszóasztal pánt, lapos",
+   "price": 590,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "db",
+   "code": "223"
+  },
+  {
+   "id": "4525",
+   "name": "Lenyíló pánt",
+   "price": 625,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "db",
+   "code": "223"
+  },
+  {
+   "id": "5765",
+   "name": "Pánt lenyíló arany",
+   "price": 713,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "db",
+   "code": "223"
+  },
+  {
+   "id": "1300",
+   "name": "Pipapánt 9mm",
+   "price": 153,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "db",
+   "code": "223"
+  },
+  {
+   "id": "1302",
+   "name": "Pipapánt díszes",
+   "price": 324,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "db",
+   "code": "223"
+  },
+  {
+   "id": "2376",
+   "name": "Pipapánt, golyós Otlav",
+   "price": 329,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "db",
+   "code": "223"
+  },
+  {
+   "id": "2373",
+   "name": "Pipapánt statikus",
+   "price": 435,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "db",
+   "code": "223"
+  },
+  {
+   "id": "2374",
+   "name": "Pipapánt 3D Siso",
+   "price": 679,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "db",
+   "code": "223"
+  },
+  {
+   "id": "1299",
+   "name": "Pánt díszes - balos",
+   "price": 647,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "db",
+   "code": "223"
+  },
+  {
+   "id": "5306",
+   "name": "Pánt díszes - jobbos",
+   "price": 647,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "db",
+   "code": "223"
+  },
+  {
+   "id": "1294",
+   "name": "Pánt díszes egyenes - balos",
+   "price": 859,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "db",
+   "code": "223"
+  },
+  {
+   "id": "1295",
+   "name": "Pánt díszes egyenes - jobbos",
+   "price": 859,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "db",
+   "code": "223"
+  },
+  {
+   "id": "1297",
+   "name": "Pánt díszes hajlított - balos",
+   "price": 859,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "db",
+   "code": "223"
+  },
+  {
+   "id": "1298",
+   "name": "Pánt díszes hajlított - jobbos",
+   "price": 859,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "db",
+   "code": "223"
+  },
+  {
+   "id": "1296",
+   "name": "Pánt króm - balos",
+   "price": 1298,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "db",
+   "code": "223"
+  },
+  {
+   "id": "5307",
+   "name": "Pánt króm - jobbos",
+   "price": 1298,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "db",
+   "code": "223"
+  },
+  {
+   "id": "1290",
+   "name": "Pánt réz - balos",
+   "price": 1740,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "db",
+   "code": "223"
+  },
+  {
+   "id": "5308",
+   "name": "Pánt réz - jobbos",
+   "price": 1740,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "db",
+   "code": "223"
+  },
+  {
+   "id": "2352",
+   "name": "Bommerpánt",
+   "price": 8184,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "pár",
+   "code": "223"
+  },
+  {
+   "id": "5309",
+   "name": "Bommerpánt, rudas",
+   "price": 5724,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "db",
+   "code": "223"
+  },
+  {
+   "id": "4610",
+   "name": "HI-FI pánt",
+   "price": 306,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "db",
+   "code": "223"
+  },
+  {
+   "id": "3168",
+   "name": "Doboz zár",
+   "price": 80,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "db",
+   "code": "223"
+  },
+  {
+   "id": "3167",
+   "name": "Dobozhorog",
+   "price": 80,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "db",
+   "code": "223"
+  },
+  {
+   "id": "1810",
+   "name": "Békapánt",
+   "price": 228,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "db",
+   "code": "223"
+  },
+  {
+   "id": "5327",
+   "name": "Pánt, rozsdamentes, jobbos",
+   "price": 1341,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "db",
+   "code": "223"
+  },
+  {
+   "id": "14761",
+   "name": "Pánt rozsdamentes, balos",
+   "price": 1341,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "db",
+   "code": "223"
+  },
+  {
+   "id": "6592",
+   "name": "Pánt rejtett",
+   "price": 754,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "db",
+   "code": "223"
+  },
+  {
+   "id": "7265",
+   "name": "Ajtópánt rejtett Cebi",
+   "price": 10468,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "db",
+   "code": "223"
+  },
+  {
+   "id": "1305",
+   "name": "Zsanér natúr",
+   "price": 288,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "pár",
+   "code": "223"
+  },
+  {
+   "id": "5330",
+   "name": "Zsanér, natúr, keskeny (pár)",
+   "price": 229,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "pár",
+   "code": "223"
+  },
+  {
+   "id": "5332",
+   "name": "Zsanér, mini, horganyzott",
+   "price": 295,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "db",
+   "code": "223"
+  },
+  {
+   "id": "2738",
+   "name": "Zsanér Inox",
+   "price": 668,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "pár",
+   "code": "223"
+  },
+  {
+   "id": "7750",
+   "name": "Zsanér BH, jobb",
+   "price": 1545,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "pár",
+   "code": "223"
+  },
+  {
+   "id": "7749",
+   "name": "Zsanér BH, bal",
+   "price": 1545,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "pár",
+   "code": "223"
+  },
+  {
+   "id": "7751",
+   "name": "Zsanér",
+   "price": 87,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "db",
+   "code": "223"
+  },
+  {
+   "id": "5334",
+   "name": "Normapánt, hajlított, balos",
+   "price": 860,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "db",
+   "code": "223"
+  },
+  {
+   "id": "5335",
+   "name": "Normapánt, hajlított, jobbos",
+   "price": 860,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "db",
+   "code": "223"
+  },
+  {
+   "id": "5336",
+   "name": "Dugópánt",
+   "price": 650,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "db",
+   "code": "223"
+  },
+  {
+   "id": "5337",
+   "name": "Doboz zsanér",
+   "price": 80,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "db",
+   "code": "223"
+  },
+  {
+   "id": "6021",
+   "name": "Pipapánt 3D Otlav",
+   "price": 1464,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "db",
+   "code": "223"
+  },
+  {
+   "id": "6769",
+   "name": "Fúrósablon 3D pánthoz OTLAV",
+   "price": 8516,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "db",
+   "code": "223"
+  },
+  {
+   "id": "7780",
+   "name": "Zongorazsanér",
+   "price": 1981,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "db",
+   "code": "223"
+  },
+  {
+   "id": "14564",
+   "name": "Zsanér, állítható erősségű 90x56mm",
+   "price": 2085,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "db",
+   "code": "223"
+  },
+  {
+   "id": "15282",
+   "name": "Zsanér PX 150x80mm",
+   "price": 1211,
+   "categoryId": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+   "unit": "db",
+   "code": "223"
+  },
+  {
+   "id": "4777",
+   "name": "Felnyíló gázteleszkóp GTV",
+   "price": 419,
+   "categoryId": "9i0j1k2l-3m4n-5o6p-7q8r-9s0t1u2v3w4x",
+   "unit": "db",
+   "code": "459"
+  },
+  {
+   "id": "1542",
+   "name": "Felnyíló gázteleszkóp mini",
+   "price": 498,
+   "categoryId": "9i0j1k2l-3m4n-5o6p-7q8r-9s0t1u2v3w4x",
+   "unit": "db",
+   "code": "459"
+  },
+  {
+   "id": "253",
+   "name": "Lenyíló gázteleszkóp",
+   "price": 652,
+   "categoryId": "9i0j1k2l-3m4n-5o6p-7q8r-9s0t1u2v3w4x",
+   "unit": "db",
+   "code": "459"
+  },
+  {
+   "id": "6175",
+   "name": "Fékes gázteleszkóp",
+   "price": 601,
+   "categoryId": "9i0j1k2l-3m4n-5o6p-7q8r-9s0t1u2v3w4x",
+   "unit": "db",
+   "code": "459"
+  },
+  {
+   "id": "4804",
+   "name": "Gázteleszkóp Kesseböhmer",
+   "price": 6805,
+   "categoryId": "9i0j1k2l-3m4n-5o6p-7q8r-9s0t1u2v3w4x",
+   "unit": "db",
+   "code": "459"
+  },
+  {
+   "id": "252",
+   "name": "Minden ponton megállítható olló",
+   "price": 1910,
+   "categoryId": "0j1k2l3m-4n5o-6p7q-8r9s-0t1u2v3w4x5y",
+   "unit": "db",
+   "code": "458"
+  },
+  {
+   "id": "250",
+   "name": "Rugós felnyíló vasalat",
+   "price": 967,
+   "categoryId": "0j1k2l3m-4n5o-6p7q-8r9s-0t1u2v3w4x5y",
+   "unit": "db",
+   "code": "458"
+  },
+  {
+   "id": "255",
+   "name": "Lenyíló-csukló olló",
+   "price": 402,
+   "categoryId": "0j1k2l3m-4n5o-6p7q-8r9s-0t1u2v3w4x5y",
+   "unit": "db",
+   "code": "458"
+  },
+  {
+   "id": "5904",
+   "name": "Fékes lenyíló mechanizmus Emuca",
+   "price": 7348,
+   "categoryId": "0j1k2l3m-4n5o-6p7q-8r9s-0t1u2v3w4x5y",
+   "unit": "db",
+   "code": "458"
+  },
+  {
+   "id": "6828",
+   "name": "Vertex fékes fémfiók 93mm",
+   "price": 9026,
+   "categoryId": "1k2l3m4n-5o6p-7q8r-9s0t-1u2v3w4x5y6z",
+   "unit": "db",
+   "code": "621"
+  },
+  {
+   "id": "6829",
+   "name": "Vertex fékes fémfiók 131mm",
+   "price": 10108,
+   "categoryId": "1k2l3m4n-5o6p-7q8r-9s0t-1u2v3w4x5y6z",
+   "unit": "db",
+   "code": "621"
+  },
+  {
+   "id": "6830",
+   "name": "Vertex fékes fémfiók 178mm",
+   "price": 12813,
+   "categoryId": "1k2l3m4n-5o6p-7q8r-9s0t-1u2v3w4x5y6z",
+   "unit": "db",
+   "code": "621"
+  },
+  {
+   "id": "6884",
+   "name": "Vertex magasító korlát",
+   "price": 1470,
+   "categoryId": "1k2l3m4n-5o6p-7q8r-9s0t-1u2v3w4x5y6z",
+   "unit": "pár",
+   "code": "621"
+  },
+  {
+   "id": "7687",
+   "name": "Vertex magasító korlát rögzítő csavarozható",
+   "price": 37,
+   "categoryId": "1k2l3m4n-5o6p-7q8r-9s0t-1u2v3w4x5y6z",
+   "unit": "db",
+   "code": "621"
+  },
+  {
+   "id": "7157",
+   "name": "Vertex belső fiók előlap",
+   "price": 7037,
+   "categoryId": "1k2l3m4n-5o6p-7q8r-9s0t-1u2v3w4x5y6z",
+   "unit": "db",
+   "code": "621"
+  },
+  {
+   "id": "7158",
+   "name": "Vertex belső fiók előlaprögzítő",
+   "price": 1127,
+   "categoryId": "1k2l3m4n-5o6p-7q8r-9s0t-1u2v3w4x5y6z",
+   "unit": "pár",
+   "code": "621"
+  },
+  {
+   "id": "7686",
+   "name": "Vertex belső fiók előlap korlát",
+   "price": 3379,
+   "categoryId": "1k2l3m4n-5o6p-7q8r-9s0t-1u2v3w4x5y6z",
+   "unit": "szál",
+   "code": "621"
+  },
+  {
+   "id": "7202",
+   "name": "Vertex fékes fémfiók előlap jelölő sablon",
+   "price": 2876,
+   "categoryId": "1k2l3m4n-5o6p-7q8r-9s0t-1u2v3w4x5y6z",
+   "unit": "pár",
+   "code": "621"
+  },
+  {
+   "id": "5977",
+   "name": "Akasztórúd beépített led profillal opál takaróval",
+   "price": 7233,
+   "categoryId": "2l3m4n5o-6p7q-8r9s-0t1u-2v3w4x5y6z7a",
+   "unit": "szál",
+   "code": "450"
+  },
+  {
+   "id": "5978",
+   "name": "Akasztórúd beépített led profillal átlátszó takaróval",
+   "price": 7233,
+   "categoryId": "2l3m4n5o-6p7q-8r9s-0t1u-2v3w4x5y6z7a",
+   "unit": "szál",
+   "code": "450"
+  },
+  {
+   "id": "5979",
+   "name": "Akasztórúd beépített led profillal tartó szett",
+   "price": 528,
+   "categoryId": "2l3m4n5o-6p7q-8r9s-0t1u-2v3w4x5y6z7a",
+   "unit": "szett",
+   "code": "450"
+  },
+  {
+   "id": "1573",
+   "name": "Akasztórúd ovális",
+   "price": 695,
+   "categoryId": "2l3m4n5o-6p7q-8r9s-0t1u-2v3w4x5y6z7a",
+   "unit": "fm",
+   "code": "450"
+  },
+  {
+   "id": "1576",
+   "name": "Akasztórúd tartó ovális",
+   "price": 76,
+   "categoryId": "2l3m4n5o-6p7q-8r9s-0t1u-2v3w4x5y6z7a",
+   "unit": "db",
+   "code": "450"
+  },
+  {
+   "id": "1579",
+   "name": "Akasztórúd tartó függesztett ovális nyitott",
+   "price": 575,
+   "categoryId": "2l3m4n5o-6p7q-8r9s-0t1u-2v3w4x5y6z7a",
+   "unit": "db",
+   "code": "450"
+  },
+  {
+   "id": "1802",
+   "name": "Akasztórúd tartó függesztett ovális zárt",
+   "price": 580,
+   "categoryId": "2l3m4n5o-6p7q-8r9s-0t1u-2v3w4x5y6z7a",
+   "unit": "db",
+   "code": "450"
+  },
+  {
+   "id": "13779",
+   "name": "Akasztórúd ovális",
+   "price": 1689,
+   "categoryId": "2l3m4n5o-6p7q-8r9s-0t1u-2v3w4x5y6z7a",
+   "unit": "szál",
+   "code": "450"
+  },
+  {
+   "id": "14881",
+   "name": "Akasztórúd tartó ovális",
+   "price": 100,
+   "categoryId": "2l3m4n5o-6p7q-8r9s-0t1u-2v3w4x5y6z7a",
+   "unit": "db",
+   "code": "450"
+  },
+  {
+   "id": "15570",
+   "name": "Akasztórúd tartó ovális függesztett nyitott fekete",
+   "price": 245,
+   "categoryId": "2l3m4n5o-6p7q-8r9s-0t1u-2v3w4x5y6z7a",
+   "unit": "db",
+   "code": "450"
+  },
+  {
+   "id": "15571",
+   "name": "Akasztórúd tartó ovális függesztett zárt fekete",
+   "price": 295,
+   "categoryId": "2l3m4n5o-6p7q-8r9s-0t1u-2v3w4x5y6z7a",
+   "unit": "db",
+   "code": "450"
+  },
+  {
+   "id": "1574",
+   "name": "Akasztórúd kör",
+   "price": 909,
+   "categoryId": "2l3m4n5o-6p7q-8r9s-0t1u-2v3w4x5y6z7a",
+   "unit": "fm",
+   "code": "450"
+  },
+  {
+   "id": "3422",
+   "name": "Akasztórúd tartó kör",
+   "price": 982,
+   "categoryId": "2l3m4n5o-6p7q-8r9s-0t1u-2v3w4x5y6z7a",
+   "unit": "db",
+   "code": "450"
+  },
+  {
+   "id": "14967",
+   "name": "Akasztórúd tartó kör - Új készletes",
+   "price": 75,
+   "categoryId": "2l3m4n5o-6p7q-8r9s-0t1u-2v3w4x5y6z7a",
+   "unit": "db",
+   "code": "450"
+  },
+  {
+   "id": "1577",
+   "name": "Akasztórúd tartó kör GTV",
+   "price": 91,
+   "categoryId": "2l3m4n5o-6p7q-8r9s-0t1u-2v3w4x5y6z7a",
+   "unit": "db",
+   "code": "450"
+  },
+  {
+   "id": "1580",
+   "name": "Akasztórúd tartó függesztett kör nyitott",
+   "price": 486,
+   "categoryId": "2l3m4n5o-6p7q-8r9s-0t1u-2v3w4x5y6z7a",
+   "unit": "db",
+   "code": "450"
+  },
+  {
+   "id": "1803",
+   "name": "Akasztórúd tartó függesztett kör zárt",
+   "price": 462,
+   "categoryId": "2l3m4n5o-6p7q-8r9s-0t1u-2v3w4x5y6z7a",
+   "unit": "db",
+   "code": "450"
+  },
+  {
+   "id": "1575",
+   "name": "Akasztórúd fa",
+   "price": 1237,
+   "categoryId": "2l3m4n5o-6p7q-8r9s-0t1u-2v3w4x5y6z7a",
+   "unit": "db",
+   "code": "450"
+  },
+  {
+   "id": "1578",
+   "name": "Akasztórúd tartó fa rúdhoz",
+   "price": 54,
+   "categoryId": "2l3m4n5o-6p7q-8r9s-0t1u-2v3w4x5y6z7a",
+   "unit": "db",
+   "code": "450"
+  },
+  {
+   "id": "7538",
+   "name": "Gardróbsín Luxe",
+   "price": 7379,
+   "categoryId": "2l3m4n5o-6p7q-8r9s-0t1u-2v3w4x5y6z7a",
+   "unit": "db",
+   "code": "450"
+  },
+  {
+   "id": "7539",
+   "name": "Gardróbsín Luxe tartókészlet",
+   "price": 1882,
+   "categoryId": "2l3m4n5o-6p7q-8r9s-0t1u-2v3w4x5y6z7a",
+   "unit": "pár",
+   "code": "450"
+  },
+  {
+   "id": "7540",
+   "name": "Gardróbsín Luxe középső távtartó",
+   "price": 1072,
+   "categoryId": "2l3m4n5o-6p7q-8r9s-0t1u-2v3w4x5y6z7a",
+   "unit": "db",
+   "code": "450"
+  },
+  {
+   "id": "7685",
+   "name": "Gardróbsín Luxe sarokrögzítő",
+   "price": 1424,
+   "categoryId": "2l3m4n5o-6p7q-8r9s-0t1u-2v3w4x5y6z7a",
+   "unit": "db",
+   "code": "450"
+  },
+  {
+   "id": "840",
+   "name": "Fogantyú 1003",
+   "price": 894,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "844",
+   "name": "Fogantyú 1006",
+   "price": 382,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "6065",
+   "name": "Fogantyú 1008",
+   "price": 366,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "848",
+   "name": "Fogantyú 1009",
+   "price": 713,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "857",
+   "name": "Fogantyú 1016",
+   "price": 1314,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "859",
+   "name": "Fogantyú 1017",
+   "price": 530,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "861",
+   "name": "Fogantyú 1018",
+   "price": 1395,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "862",
+   "name": "Fogantyú 1019",
+   "price": 686,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "863",
+   "name": "Fogantyú 1020",
+   "price": 780,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "6878",
+   "name": "Fogantyú 1021",
+   "price": 1369,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "866",
+   "name": "Fogantyú 1022",
+   "price": 512,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "869",
+   "name": "Fogantyú 1023",
+   "price": 918,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "878",
+   "name": "Fogantyú 1027",
+   "price": 620,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "879",
+   "name": "Fogantyú 1028",
+   "price": 546,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "881",
+   "name": "Fogantyú 1029",
+   "price": 833,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "890",
+   "name": "Fogantyú 1035",
+   "price": 509,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "894",
+   "name": "Fogantyú 1036",
+   "price": 573,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "897",
+   "name": "Fogantyú 1039",
+   "price": 539,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "898",
+   "name": "Fogantyú 1040",
+   "price": 374,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "6802",
+   "name": "Fogantyú 1044",
+   "price": 1178,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "6800",
+   "name": "Fogantyú 1045",
+   "price": 1757,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "6801",
+   "name": "Fogantyú 1046",
+   "price": 1625,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "5865",
+   "name": "Fogantyú 1052",
+   "price": 2692,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "5877",
+   "name": "Fogantyú 1053",
+   "price": 3235,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "6086",
+   "name": "Fogantyú 1055",
+   "price": 813,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "6725",
+   "name": "Fogantyú 1059 teraszajtóra",
+   "price": 901,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "6066",
+   "name": "Fogantyú 1063",
+   "price": 1708,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "6726",
+   "name": "Fogantyú 1066 teraszajtóra",
+   "price": 1990,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "974",
+   "name": "Fogantyú 1089",
+   "price": 640,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "976",
+   "name": "Fogantyú 1090",
+   "price": 1190,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "979",
+   "name": "Fogantyú 1092",
+   "price": 909,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "997",
+   "name": "Fogantyú 1099",
+   "price": 615,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "3952",
+   "name": "Fogantyú 1100",
+   "price": 1874,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "6095",
+   "name": "Fogantyú 1105",
+   "price": 854,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "4703",
+   "name": "Fogantyú 1106",
+   "price": 1460,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "1012",
+   "name": "Fogantyú 1108",
+   "price": 754,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "1016",
+   "name": "Fogantyú 1113",
+   "price": 1130,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "2330",
+   "name": "Fogantyú 1117",
+   "price": 1297,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "2331",
+   "name": "Fogantyú 1118",
+   "price": 1920,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "3046",
+   "name": "Fogantyú 1119",
+   "price": 1926,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "5111",
+   "name": "Fogantyú 1120",
+   "price": 960,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "2529",
+   "name": "Fogantyú 1122",
+   "price": 731,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "2530",
+   "name": "Fogantyú 1123",
+   "price": 761,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "6070",
+   "name": "Fogantyú 1125",
+   "price": 677,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "6100",
+   "name": "Fogantyú 1130",
+   "price": 403,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "5581",
+   "name": "Fogantyú 1131",
+   "price": 1476,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "6094",
+   "name": "Fogantyú 1134",
+   "price": 1559,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "2544",
+   "name": "Fogantyú 1137",
+   "price": 1796,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "6237",
+   "name": "Fogantyú 1138",
+   "price": 2933,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "6999",
+   "name": "Fogantyú 1153",
+   "price": 1590,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "2725",
+   "name": "Fogantyú 1155",
+   "price": 1519,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "6238",
+   "name": "Fogantyú 1157",
+   "price": 926,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "2728",
+   "name": "Fogantyú 1158",
+   "price": 478,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "2773",
+   "name": "Fogantyú 1160",
+   "price": 1425,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "2796",
+   "name": "Fogantyú 1166",
+   "price": 881,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "2797",
+   "name": "Fogantyú 1167",
+   "price": 2511,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "2798",
+   "name": "Fogantyú 1168",
+   "price": 1949,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "2800",
+   "name": "Fogantyú 1170",
+   "price": 3294,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "2802",
+   "name": "Fogantyú 1172",
+   "price": 831,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "2804",
+   "name": "Fogantyú 1174",
+   "price": 424,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "2805",
+   "name": "Fogantyú 1175",
+   "price": 318,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "6998",
+   "name": "Fogantyú 1180",
+   "price": 715,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "2985",
+   "name": "Fogantyú 1182",
+   "price": 454,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "6071",
+   "name": "Fogantyú 1200",
+   "price": 886,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "3209",
+   "name": "Fogantyú 1201",
+   "price": 920,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "3210",
+   "name": "Fogantyú 1202",
+   "price": 970,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "6088",
+   "name": "Fogantyú 1205",
+   "price": 382,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "6897",
+   "name": "Fogantyú 1206",
+   "price": 1190,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "3507",
+   "name": "Fogantyú 1208",
+   "price": 850,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "3510",
+   "name": "Fogantyú 1209",
+   "price": 1350,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "3511",
+   "name": "Fogantyú 1210",
+   "price": 1570,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "3512",
+   "name": "Fogantyú 1211",
+   "price": 990,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "3894",
+   "name": "Fogantyú 1224",
+   "price": 612,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "4006",
+   "name": "Fogantyú 1226",
+   "price": 1615,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "7618",
+   "name": "Fogantyú 1228",
+   "price": 1666,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "4009",
+   "name": "Fogantyú 1229",
+   "price": 1191,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "4010",
+   "name": "Fogantyú 1230",
+   "price": 1339,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "4014",
+   "name": "Fogantyú 1234",
+   "price": 1359,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "4015",
+   "name": "Fogantyú 1235",
+   "price": 2582,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "4016",
+   "name": "Fogantyú 1236",
+   "price": 1478,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "4698",
+   "name": "Fogantyú 1253",
+   "price": 843,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "4699",
+   "name": "Fogantyú 1254",
+   "price": 850,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "4701-5771",
+   "name": "Fogantyú 1256",
+   "price": 757,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "5829",
+   "name": "Fogantyú 1266",
+   "price": 2146,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "5878",
+   "name": "Fogantyú 1267",
+   "price": 2033,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "6276",
+   "name": "Fogantyú 1279",
+   "price": 4256,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "6791",
+   "name": "Fogantyú 1281",
+   "price": 445,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "6792",
+   "name": "Fogantyú 1282",
+   "price": 1438,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "6793",
+   "name": "Fogantyú 1283",
+   "price": 895,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "6885",
+   "name": "Fogantyú 1284",
+   "price": 890,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "6794",
+   "name": "Fogantyú 1285",
+   "price": 995,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "6803",
+   "name": "Fogantyú 1288",
+   "price": 4252,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696",
+   "unitMissing": true
+  },
+  {
+   "id": "6804",
+   "name": "Fogantyú 1289",
+   "price": 2373,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "6806",
+   "name": "Fogantyú 1291",
+   "price": 1059,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "6807",
+   "name": "Fogantyú 1292",
+   "price": 962,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "6808",
+   "name": "Fogantyú 1293",
+   "price": 886,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "6809",
+   "name": "Fogantyú 1294",
+   "price": 1973,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "5761",
+   "name": "Hi-Fi fogantyú",
+   "price": 411,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "6945",
+   "name": "Fogantyú 1296",
+   "price": 1390,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "7136",
+   "name": "Fogantyú 1299",
+   "price": 506,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "7137",
+   "name": "Fogantyú 1300",
+   "price": 340,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "7138",
+   "name": "Fogantyú 1301",
+   "price": 458,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "7133",
+   "name": "Fogantyú 1302",
+   "price": 3020,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "7134",
+   "name": "Fogantyú 1303",
+   "price": 2771,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "7324",
+   "name": "Fogantyú 1306",
+   "price": 1898,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "7325",
+   "name": "Fogantyú 1308",
+   "price": 5006,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "7328",
+   "name": "Fogantyú 1310",
+   "price": 1908,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "7329",
+   "name": "Fogantyú 1312",
+   "price": 1351,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "7453",
+   "name": "Fogantyú 1314",
+   "price": 2392,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "7454",
+   "name": "Fogantyú 1316",
+   "price": 1331,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "7508",
+   "name": "Fogantyú 1320",
+   "price": 3720,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "7505",
+   "name": "Fogantyú 1321",
+   "price": 3190,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "7506",
+   "name": "Fogantyú 1322",
+   "price": 3190,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "7507",
+   "name": "Fogantyú 1323",
+   "price": 2830,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "7509",
+   "name": "Fogantyú 1324",
+   "price": 2850,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "7510",
+   "name": "Fogantyú 1325",
+   "price": 3720,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "7511",
+   "name": "Fogantyú 1326",
+   "price": 2830,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "7512",
+   "name": "Fogantyú 1327",
+   "price": 3210,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "7534",
+   "name": "Fogantyú 1335",
+   "price": 764,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "7656",
+   "name": "Fogantyú 1336",
+   "price": 1315,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "7657",
+   "name": "Fogantyú 1337",
+   "price": 1012,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "7658",
+   "name": "Fogantyú 1338",
+   "price": 1391,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "7659",
+   "name": "Fogantyú 1339",
+   "price": 1410,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "7660",
+   "name": "Fogantyú 1340",
+   "price": 1900,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "7672",
+   "name": "Fogantyú 1341",
+   "price": 3425,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "7712",
+   "name": "Fogantyú 1345",
+   "price": 1503,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "7830",
+   "name": "Fogantyú 1305",
+   "price": 4161,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "13801",
+   "name": "Fogantyú 1346",
+   "price": 1490,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "14260",
+   "name": "Fogantyú 1347",
+   "price": 894,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "14433",
+   "name": "Fogantyú 1348",
+   "price": 1149,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "14690",
+   "name": "Fogantyú 1351",
+   "price": 2067,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "14697",
+   "name": "Fogantyú 1353 grafit",
+   "price": 2028,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "14695",
+   "name": "Fogantyú 1352 grafit",
+   "price": 3863,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "14703",
+   "name": "Fogantyú 1354",
+   "price": 1931,
+   "categoryId": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+   "unit": "db",
+   "code": "696"
+  },
+  {
+   "id": "6064",
+   "name": "Fogantyú 1000",
+   "price": 349,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "3951",
+   "name": "Fogantyú 1010",
+   "price": 1113,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "4983",
+   "name": "Fogantyú 1013 BALOS",
+   "price": 678,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "853",
+   "name": "Fogantyú 1013 JOBBOS",
+   "price": 669,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "914",
+   "name": "Fogantyú 1054",
+   "price": 562,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "918",
+   "name": "Fogantyú 1056",
+   "price": 599,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "919",
+   "name": "Fogantyú 1057",
+   "price": 389,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "940",
+   "name": "Fogantyú 1067",
+   "price": 454,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "942",
+   "name": "Fogantyú 1069",
+   "price": 1331,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "966",
+   "name": "Fogantyú 1082",
+   "price": 309,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "970",
+   "name": "Fogantyú 1086",
+   "price": 758,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "6097",
+   "name": "Fogantyú 1088",
+   "price": 490,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "6039",
+   "name": "Fogantyú 1091",
+   "price": 268,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "1003",
+   "name": "Fogantyú 1101",
+   "price": 420,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "6068",
+   "name": "Fogantyú 1104",
+   "price": 195,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "6087",
+   "name": "Fogantyú 1115",
+   "price": 433,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "6525",
+   "name": "Fogantyú 1126",
+   "price": 569,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "2675",
+   "name": "Fogantyú 1139",
+   "price": 405,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "2775",
+   "name": "Fogantyú 1161",
+   "price": 620,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "2803",
+   "name": "Fogantyú 1173",
+   "price": 310,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "5109",
+   "name": "Fogantyú 1203",
+   "price": 360,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "3578",
+   "name": "Fogantyú 1212",
+   "price": 2093,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "3579",
+   "name": "Fogantyú 1214",
+   "price": 669,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "3636",
+   "name": "Fogantyú 1217",
+   "price": 2672,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "3892",
+   "name": "Fogantyú 1222",
+   "price": 498,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "3893",
+   "name": "Fogantyú 1223",
+   "price": 571,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "4018",
+   "name": "Fogantyú 1249",
+   "price": 388,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "4019",
+   "name": "Fogantyú 1250",
+   "price": 388,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "4511",
+   "name": "Fogantyú 1252",
+   "price": 590,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "6263",
+   "name": "Fogantyú 1276",
+   "price": 1670,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "6795",
+   "name": "Fogantyú 1286",
+   "price": 520,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "6796",
+   "name": "Fogantyú 1287",
+   "price": 557,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "6946",
+   "name": "Fogantyú 1297",
+   "price": 610,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "6762",
+   "name": "Fogantyú 1207",
+   "price": 690,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "7326",
+   "name": "Fogantyú 1309",
+   "price": 2654,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "7327",
+   "name": "Fogantyú 1311",
+   "price": 891,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "7382",
+   "name": "Fogantyú 1307",
+   "price": 1095,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "7452",
+   "name": "Fogantyú 1313",
+   "price": 1668,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "7455",
+   "name": "Fogantyú 1317",
+   "price": 1218,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "7456",
+   "name": "Fogantyú 1318",
+   "price": 2254,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "7513",
+   "name": "Fogantyú 1328",
+   "price": 1840,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "7710",
+   "name": "Fogantyú 1343",
+   "price": 926,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "7711",
+   "name": "Fogantyú 1344",
+   "price": 496,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "14688",
+   "name": "Fogantyú 1350",
+   "price": 1236,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "14692",
+   "name": "Fogantyú 1356",
+   "price": 977,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "14939",
+   "name": "Fogantyú 1357",
+   "price": 512,
+   "categoryId": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+   "unit": "db",
+   "code": "697"
+  },
+  {
+   "id": "7827",
+   "name": "Bútorláb UP állítószerszám",
+   "price": 10577,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "1129",
+   "name": "Bútorláb 3011",
+   "price": 108,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "3077",
+   "name": "Bútorláb 3025",
+   "price": 546,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "1149",
+   "name": "Bútorláb 3029",
+   "price": 115,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "1151",
+   "name": "Bútorláb 3031",
+   "price": 364,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "1804",
+   "name": "Bútorláb 3034",
+   "price": 67,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "7682",
+   "name": "Bútorláb 3035",
+   "price": 95,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "2503",
+   "name": "Bútorláb 3039",
+   "price": 556,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "2807",
+   "name": "Bútorláb 3042",
+   "price": 146,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "3075",
+   "name": "Bútorláb Rehau 3047",
+   "price": 204,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "5195",
+   "name": "Bútorláb talp Rehau 3047",
+   "price": 159,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "3425",
+   "name": "Bútorláb 3048",
+   "price": 224,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "3754",
+   "name": "Bútorláb 3051",
+   "price": 121,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "5196",
+   "name": "Bútorláb 3051 talp",
+   "price": 65,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "4098",
+   "name": "Bútorláb 3053",
+   "price": 101,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "4606",
+   "name": "Bútorláb 3131",
+   "price": 136,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "5198",
+   "name": "Bútorláb talp 3131",
+   "price": 54,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "7828",
+   "name": "Bútorláb talp 3131, szögletes",
+   "price": 105,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "6660",
+   "name": "Bútorláb 3333",
+   "price": 465,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "7471",
+   "name": "Bútorláb 3074",
+   "price": 541,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "7594",
+   "name": "Bútorláb Axilo",
+   "price": 255,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "7595",
+   "name": "Bútorláb talp Axilo",
+   "price": 204,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "14234",
+   "name": "Bútorláb Axilo turbó clip",
+   "price": 142,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "13771",
+   "name": "Bútorláb Axilo clip csúsztatható fekete",
+   "price": 218,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "14233",
+   "name": "Bútorláb Axilo állítószerszám (ECO)",
+   "price": 9798,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "14232",
+   "name": "Bútorláb Axilo állítószerszám (behajtógéphez)",
+   "price": 44106,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "2328",
+   "name": "Bútorláb fém clip 3200",
+   "price": 73,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "5199",
+   "name": "Bútorláb csapos clip talp 3200",
+   "price": 83,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "5200",
+   "name": "Bútorláb csavarozható clip talp 3200",
+   "price": 66,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "6703",
+   "name": "Bútorláb csavarozható clip Rehau 3210",
+   "price": 88,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "7596",
+   "name": "Bútorláb csavarozható clip Axilo",
+   "price": 126,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "7597",
+   "name": "Bútorláb befűzhető clip, Axilo",
+   "price": 193,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "5201",
+   "name": "Bútorláb csavarozható clip 3220",
+   "price": 44,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "4164",
+   "name": "Bútorláb csapos clip 3230",
+   "price": 58,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "4607",
+   "name": "Bútorláb csavarozható clip 3240",
+   "price": 53,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "4608",
+   "name": "Bútorláb csapos clip 3260",
+   "price": 20,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "5800",
+   "name": "Bútorláb clip 3270 csavaros",
+   "price": 25,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294",
+   "unitMissing": true
+  },
+  {
+   "id": "7829",
+   "name": "Bútorláb clip 3280",
+   "price": 34,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "1805",
+   "name": "Bútorcsúszó egycsapos",
+   "price": 6,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "1806",
+   "name": "Bútorcsúszó kétcsapos",
+   "price": 12,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "1807",
+   "name": "Bútorcsúszó szeges",
+   "price": 12,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "3950",
+   "name": "Bútorcsúszó filces öntapadós",
+   "price": 147,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "4587",
+   "name": "Bútorcsúszó filces szeges",
+   "price": 28,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "3949",
+   "name": "Csőlábdugó filces",
+   "price": 1346,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "1153",
+   "name": "Bútorék",
+   "price": 26,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "6756",
+   "name": "Fa ék",
+   "price": 84,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "7466",
+   "name": "Műanyag bútorék",
+   "price": 200,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "14224",
+   "name": "Bútorék",
+   "price": 26,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "14322",
+   "name": "Bútorék",
+   "price": 26,
+   "categoryId": "3cbc6967-0f02-407d-b8d1-459a8864bef8",
+   "unit": "db",
+   "code": "294"
+  },
+  {
+   "id": "7621",
+   "name": "Pánthely javító lemez",
+   "price": 196,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "19"
+  },
+  {
+   "id": "2906",
+   "name": "Kivetőpánt GTV 100° Clip ráütődő",
+   "price": 228,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "498"
+  },
+  {
+   "id": "3791",
+   "name": "Kivetőpánt DANCO Clip 110° ráütődő",
+   "price": 305,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "498"
+  },
+  {
+   "id": "3258",
+   "name": "Kivetőpánt GTV Clip 100° fékes ráütődő",
+   "price": 374,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "498"
+  },
+  {
+   "id": "5407",
+   "name": "Kivetőpánt EMUCA 100° Klipp Top fékes ráütődő",
+   "price": 507,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "498"
+  },
+  {
+   "id": "5409",
+   "name": "Kivetőpánt EMUCA 100° Klipp Top ráütődő",
+   "price": 288,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "498"
+  },
+  {
+   "id": "6000",
+   "name": "Kivetőpánt GTV Clip 100° fékes ráütődő 3D talppal",
+   "price": 488,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "498"
+  },
+  {
+   "id": "6508",
+   "name": "Kivetőpánt DANCO Clip 110° ráütődő rugó nélküli",
+   "price": 294,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "498"
+  },
+  {
+   "id": "7688",
+   "name": "Kivetőpánt DANCO Clip 110° fékes, ráütődő",
+   "price": 709,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "498"
+  },
+  {
+   "id": "14534",
+   "name": "Kivetőpánt C 105. Clip Ráütődő",
+   "price": 262,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "498"
+  },
+  {
+   "id": "14533",
+   "name": "Kivetőpánt C 105. Clip fékes Ráütődő",
+   "price": 394,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "498"
+  },
+  {
+   "id": "4430",
+   "name": "Kivetőpánt GTV Clip 100° fékes félig ráütődő + talp",
+   "price": 382,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "499"
+  },
+  {
+   "id": "3792",
+   "name": "Kivetőpánt DANCO Clip 110° félig ráütődő",
+   "price": 318,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "499"
+  },
+  {
+   "id": "6019",
+   "name": "Kivetőpánt GTV Clip 100° fékes félig ráütődő, 3D talppal",
+   "price": 553,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "499"
+  },
+  {
+   "id": "3793",
+   "name": "Kivetőpánt DANCO Clip 110° közézáró",
+   "price": 321,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "500"
+  },
+  {
+   "id": "3797",
+   "name": "Kivetőpánt DANCO Clip +30° közézáró",
+   "price": 310,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "501"
+  },
+  {
+   "id": "3798",
+   "name": "Kivetőpánt DANCO Clip +45° közézáró",
+   "price": 530,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "501"
+  },
+  {
+   "id": "2918",
+   "name": "Kivetőpánt GTV Clip 165° fékes ráütődő",
+   "price": 991,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "502"
+  },
+  {
+   "id": "3794",
+   "name": "Kivetőpánt DANCO Clip 165° ráütődő",
+   "price": 1102,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "502"
+  },
+  {
+   "id": "3795",
+   "name": "Kivetőpánt DANCO Clip pillérpánt közézáró",
+   "price": 761,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "502"
+  },
+  {
+   "id": "3796",
+   "name": "Kivetőpánt DANCO Clip sarokajtópánt",
+   "price": 932,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "502"
+  },
+  {
+   "id": "3799",
+   "name": "Kivetőpánt DANCO Clip alátét",
+   "price": 50,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "503"
+  },
+  {
+   "id": "3801",
+   "name": "Kivetőpánt DANCO Clip alátét excenteres",
+   "price": 162,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "503"
+  },
+  {
+   "id": "3802",
+   "name": "Kivetőpánt DANCO Clip alátét excenteres 3D",
+   "price": 304,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "503"
+  },
+  {
+   "id": "5411",
+   "name": "Kivetőpánt EMUCA Klipp alátét",
+   "price": 50,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "503"
+  },
+  {
+   "id": "6510",
+   "name": "Kivetőpánt DANCO Clip alátét excenteres 2D",
+   "price": 151,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "503"
+  },
+  {
+   "id": "7689",
+   "name": "Kivetőpánt DANCO Clip Fékes alátét",
+   "price": 55,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "503"
+  },
+  {
+   "id": "7690",
+   "name": "Kivetőpánt DANCO Clip Fékes alátét, excenteres",
+   "price": 143,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "503"
+  },
+  {
+   "id": "14536",
+   "name": "Kivetőpánt C Clip alátét excenteres",
+   "price": 121,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "503"
+  },
+  {
+   "id": "14535",
+   "name": "Kivetőpánt C Clip alátét",
+   "price": 53,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "503"
+  },
+  {
+   "id": "13856",
+   "name": "Kivetőpánt DANCO Clip alátét eurocsavaros",
+   "price": 80,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "503"
+  },
+  {
+   "id": "2855",
+   "name": "Kivetőpánt GTV 100° ráütődő",
+   "price": 106,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "504"
+  },
+  {
+   "id": "3781",
+   "name": "Kivetőpánt DANCO Modul 90° ráütődő",
+   "price": 191,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "504"
+  },
+  {
+   "id": "6509",
+   "name": "Kivetőpánt DANCO Modul 90° Ráütődő rugó nélküli",
+   "price": 115,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "504",
+   "unitMissing": true
+  },
+  {
+   "id": "3782",
+   "name": "Kivetőpánt DANCO Modul 90° félig ráütődő",
+   "price": 198,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "505"
+  },
+  {
+   "id": "3260",
+   "name": "Kivetőpánt GTV 100° fékes közézáró",
+   "price": 387,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "506"
+  },
+  {
+   "id": "3783",
+   "name": "Kivetőpánt DANCO Modul 90° közézáró",
+   "price": 204,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "506"
+  },
+  {
+   "id": "3787",
+   "name": "Kivetőpánt DANCO Modul +30° közézáró",
+   "price": 235,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "507"
+  },
+  {
+   "id": "3788",
+   "name": "Kivetőpánt DANCO Modul +45° közézáró",
+   "price": 407,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "507"
+  },
+  {
+   "id": "2862",
+   "name": "Kivetőpánt GTV pillérpánt közézáródó",
+   "price": 325,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "508"
+  },
+  {
+   "id": "6029",
+   "name": "Kivetőpánt GTV Clip fékes pillérpánt közézáró",
+   "price": 488,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "508"
+  },
+  {
+   "id": "2900",
+   "name": "Kivetőpánt GTV 270° ráütődő",
+   "price": 1081,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "508"
+  },
+  {
+   "id": "1385",
+   "name": "Kivetőpánt SALICE Hűtőajtó",
+   "price": 1201,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "508"
+  },
+  {
+   "id": "3784",
+   "name": "Kivetőpánt DANCO Modul 165° ráütődő",
+   "price": 932,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "508"
+  },
+  {
+   "id": "3785",
+   "name": "Kivetőpánt DANCO Modul pillérpánt közézáró",
+   "price": 491,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "508"
+  },
+  {
+   "id": "3786",
+   "name": "Kivetőpánt DANCO Modul sarokajtópánt",
+   "price": 748,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "508"
+  },
+  {
+   "id": "4165",
+   "name": "Kivetőpánt SALICE alátét 0mm",
+   "price": 128,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "510"
+  },
+  {
+   "id": "3789",
+   "name": "Kivetőpánt DANCO Modul alátét",
+   "price": 55,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "510"
+  },
+  {
+   "id": "3790",
+   "name": "Kivetőpánt DANCO Modul alátét eurocsavaros",
+   "price": 80,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "510"
+  },
+  {
+   "id": "2871",
+   "name": "Üvegajtópánt fúrás nélküli ráütődő",
+   "price": 4477,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "pár",
+   "code": "509"
+  },
+  {
+   "id": "4406",
+   "name": "Üvegajtópánt fúrás nélküli közézáró 1 pár",
+   "price": 2103,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "pár",
+   "code": "509"
+  },
+  {
+   "id": "3803",
+   "name": "Üvegajtópánt DANCO ráütődő",
+   "price": 225,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "509"
+  },
+  {
+   "id": "3804",
+   "name": "Üvegajtópánt DANCO közézáró",
+   "price": 262,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "509"
+  },
+  {
+   "id": "3805",
+   "name": "Üvegajtópánt DANCO pillér közézáró",
+   "price": 400,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "509"
+  },
+  {
+   "id": "3806",
+   "name": "Üvegajtópánt DANCO +45° közézáró",
+   "price": 350,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "509"
+  },
+  {
+   "id": "3807",
+   "name": "Üvegajtópánt DANCO alátét",
+   "price": 86,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "509"
+  },
+  {
+   "id": "3808",
+   "name": "Üvegajtópánt DANCO alátét pillér, 45°",
+   "price": 55,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "509"
+  },
+  {
+   "id": "3809",
+   "name": "Üvegajtópánt DANCO D kupak króm",
+   "price": 182,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "509"
+  },
+  {
+   "id": "3810",
+   "name": "Üvegajtópánt DANCO D kupak alu",
+   "price": 180,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "509"
+  },
+  {
+   "id": "3811",
+   "name": "Üvegajtópánt DANCO D kupak arany",
+   "price": 141,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "509"
+  },
+  {
+   "id": "5851",
+   "name": "Üvegajtópánt BADGE",
+   "price": 3822,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "pár",
+   "code": "509"
+  },
+  {
+   "id": "5852",
+   "name": "Üvegajtópánt BADGE köztes - balos",
+   "price": 1691,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "509"
+  },
+  {
+   "id": "5853",
+   "name": "Üvegajtópánt BADGE köztes",
+   "price": 2186,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "509"
+  },
+  {
+   "id": "5854",
+   "name": "Üvegajtó fogantyú BADGE dupla",
+   "price": 1768,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "pár",
+   "code": "509"
+  },
+  {
+   "id": "5855",
+   "name": "Üvegajtó fogantyú BADGE szimpla",
+   "price": 1714,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "509"
+  },
+  {
+   "id": "5856",
+   "name": "Üvegajtó zár BADGE szimpla",
+   "price": 2570,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "509"
+  },
+  {
+   "id": "14727",
+   "name": "Üvegajtózár BADGE dupla",
+   "price": 2983,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "509"
+  },
+  {
+   "id": "5858",
+   "name": "Üvegajtó zár BADGE ellendarab üvegre",
+   "price": 909,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "509"
+  },
+  {
+   "id": "5859",
+   "name": "Üvegajtó zár BADGE ellendarab fára - szimpla",
+   "price": 711,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "509"
+  },
+  {
+   "id": "5860",
+   "name": "Üvegajtó zár BADGE ellendarab fára - dupla",
+   "price": 933,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "509"
+  },
+  {
+   "id": "6764",
+   "name": "Üvegajtó fogantyú króm",
+   "price": 828,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "509"
+  },
+  {
+   "id": "14648",
+   "name": "Üvegajtópánt DANCO O kupak",
+   "price": 185,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "509"
+  },
+  {
+   "id": "5841",
+   "name": "Kivetőpánt DANCO Modul keskeny alukeret ráütődő",
+   "price": 269,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "565"
+  },
+  {
+   "id": "5845",
+   "name": "Kivetőpánt DANCO Modul keskeny alukeret félig ráütődő",
+   "price": 232,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "565"
+  },
+  {
+   "id": "6824",
+   "name": "Kivetőpánt DANCO fék",
+   "price": 463,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "511"
+  },
+  {
+   "id": "2868",
+   "name": "Ajtófék befúrható",
+   "price": 225,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "511"
+  },
+  {
+   "id": "2870",
+   "name": "Ajtófék befúrható, adapter",
+   "price": 52,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "511"
+  },
+  {
+   "id": "7472",
+   "name": "Befúrható ajtófék mini",
+   "price": 37,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "511"
+  },
+  {
+   "id": "7447",
+   "name": "Tip-On X-Press gumis",
+   "price": 633,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "511"
+  },
+  {
+   "id": "7448",
+   "name": "Tip-On X-Press mágneses",
+   "price": 709,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "511"
+  },
+  {
+   "id": "7450",
+   "name": "Tip-On X-Press mágneses öntapadós ellendarab",
+   "price": 71,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "511"
+  },
+  {
+   "id": "7451",
+   "name": "Tip-On X-Press mágneses beütős ellendarab",
+   "price": 52,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "511"
+  },
+  {
+   "id": "7449",
+   "name": "Tip-On X-Press adapter",
+   "price": 147,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "511"
+  },
+  {
+   "id": "5304",
+   "name": "Tip-on mágneses",
+   "price": 265,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "511"
+  },
+  {
+   "id": "3424",
+   "name": "Push Lacht mágneses",
+   "price": 1234,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "511"
+  },
+  {
+   "id": "6092",
+   "name": "Push Lacht adapter, szétszedhető",
+   "price": 350,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "511"
+  },
+  {
+   "id": "4231",
+   "name": "Push Lacht / mágnes alátét",
+   "price": 26,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "511"
+  },
+  {
+   "id": "1812",
+   "name": "HI-FI mágnes 1-es",
+   "price": 180,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "511"
+  },
+  {
+   "id": "1813",
+   "name": "HI-FI mágnes 2-es",
+   "price": 352,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "511"
+  },
+  {
+   "id": "6993",
+   "name": "Hi-Fi mágnes BH 2-es",
+   "price": 215,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "511"
+  },
+  {
+   "id": "4524",
+   "name": "Pánthelytakaró",
+   "price": 30,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "511"
+  },
+  {
+   "id": "6233",
+   "name": "Tip-on adapterrel",
+   "price": 377,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "511"
+  },
+  {
+   "id": "14457",
+   "name": "Tip-On egyenes adapterrel",
+   "price": 315,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "511"
+  },
+  {
+   "id": "5965",
+   "name": "Tip-on Siso, gumis",
+   "price": 227,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "511"
+  },
+  {
+   "id": "6850",
+   "name": "Tip-on gumis ATM",
+   "price": 1090,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "511"
+  },
+  {
+   "id": "6240",
+   "name": "Gyerekzár Revalock mágneses szett",
+   "price": 13253,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "szett",
+   "code": "511"
+  },
+  {
+   "id": "6239",
+   "name": "Gyerekzár Revalock mágneses zár",
+   "price": 3947,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "511"
+  },
+  {
+   "id": "14425",
+   "name": "Tip-on X-PRESS MINI adapter",
+   "price": 129,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "511"
+  },
+  {
+   "id": "14424",
+   "name": "Tip-on X-PRESS MINI gumis",
+   "price": 600,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "511"
+  },
+  {
+   "id": "14423",
+   "name": "Tip-on X-PRESS MINI mágneses",
+   "price": 653,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "511"
+  },
+  {
+   "id": "14359",
+   "name": "Tip-On BH gumis (Adapterrel)",
+   "price": 208,
+   "categoryId": "60c8bee1-3248-4ec3-aed8-5471004d6833",
+   "unit": "db",
+   "code": "511"
+  },
+  {
+   "id": "1409",
+   "name": "Fióksín görgős részleges kihúzású",
+   "price": 476,
+   "categoryId": "487a3d4b-41b4-4635-a939-5b6f6ab7652e",
+   "unit": "db",
+   "code": "21"
+  },
+  {
+   "id": "4905",
+   "name": "Fiókoldal részleges kihúzású előlaprögzítővel / 54",
+   "price": 1648,
+   "categoryId": "487a3d4b-41b4-4635-a939-5b6f6ab7652e",
+   "unit": "pár",
+   "code": "23"
+  },
+  {
+   "id": "1435",
+   "name": "Fiókoldal részleges kihúzású előlaprögzítővel / 86",
+   "price": 1764,
+   "categoryId": "487a3d4b-41b4-4635-a939-5b6f6ab7652e",
+   "unit": "pár",
+   "code": "23"
+  },
+  {
+   "id": "4906",
+   "name": "Fiókoldal részleges kihúzású előlaprögzítővel / 120",
+   "price": 2129,
+   "categoryId": "487a3d4b-41b4-4635-a939-5b6f6ab7652e",
+   "unit": "pár",
+   "code": "23"
+  },
+  {
+   "id": "4907",
+   "name": "Fiókoldal részleges kihúzású előlaprögzítővel / 150",
+   "price": 2097,
+   "categoryId": "487a3d4b-41b4-4635-a939-5b6f6ab7652e",
+   "unit": "pár",
+   "code": "23"
+  },
+  {
+   "id": "2896",
+   "name": "Fiókoldal magasító korlát",
+   "price": 1772,
+   "categoryId": "487a3d4b-41b4-4635-a939-5b6f6ab7652e",
+   "unit": "pár",
+   "code": "23"
+  },
+  {
+   "id": "3889",
+   "name": "Fiókoldal fékező",
+   "price": 808,
+   "categoryId": "487a3d4b-41b4-4635-a939-5b6f6ab7652e",
+   "unit": "db",
+   "code": "23"
+  },
+  {
+   "id": "4230",
+   "name": "Fiókoldal fékező aktivátor",
+   "price": 98,
+   "categoryId": "487a3d4b-41b4-4635-a939-5b6f6ab7652e",
+   "unit": "db",
+   "code": "23"
+  },
+  {
+   "id": "15132",
+   "name": "Fiókoldal fékező állítható aktivátor",
+   "price": 137,
+   "categoryId": "487a3d4b-41b4-4635-a939-5b6f6ab7652e",
+   "unit": "db",
+   "code": "23"
+  },
+  {
+   "id": "2888",
+   "name": "Fióksín golyós, részleges kihúzású",
+   "price": 276,
+   "categoryId": "487a3d4b-41b4-4635-a939-5b6f6ab7652e",
+   "unit": "pár",
+   "code": "192"
+  },
+  {
+   "id": "4714",
+   "name": "Fióksín BH golyós teljes kihúzású",
+   "price": 1300,
+   "categoryId": "487a3d4b-41b4-4635-a939-5b6f6ab7652e",
+   "unit": "pár",
+   "code": "22"
+  },
+  {
+   "id": "1420",
+   "name": "Fióksín golyós teljes kihúzású GTV",
+   "price": 902,
+   "categoryId": "487a3d4b-41b4-4635-a939-5b6f6ab7652e",
+   "unit": "pár",
+   "code": "22"
+  },
+  {
+   "id": "6085",
+   "name": "Fióksín golyós teljes kihúzású erősített",
+   "price": 5721,
+   "categoryId": "487a3d4b-41b4-4635-a939-5b6f6ab7652e",
+   "unit": "pár",
+   "code": "22"
+  },
+  {
+   "id": "13792",
+   "name": "Fióksín C teljes kihúzású 100kg",
+   "price": 5079,
+   "categoryId": "487a3d4b-41b4-4635-a939-5b6f6ab7652e",
+   "unit": "pár",
+   "code": "22"
+  },
+  {
+   "id": "13793",
+   "name": "Fióksín C teljes kihúzású 225kg",
+   "price": 19373,
+   "categoryId": "487a3d4b-41b4-4635-a939-5b6f6ab7652e",
+   "unit": "pár",
+   "code": "22"
+  },
+  {
+   "id": "3221",
+   "name": "Fióksín golyós teljes kihúzású fékes Plus",
+   "price": 1910,
+   "categoryId": "487a3d4b-41b4-4635-a939-5b6f6ab7652e",
+   "unit": "pár",
+   "code": "194"
+  },
+  {
+   "id": "5910",
+   "name": "Fióksín Met-gal golyós teljes kihúzású, fékes",
+   "price": 2083,
+   "categoryId": "487a3d4b-41b4-4635-a939-5b6f6ab7652e",
+   "unit": "pár",
+   "code": "194"
+  },
+  {
+   "id": "14282",
+   "name": "Fióksín PLUS golyós teljes kihúzású, fékes",
+   "price": 2396,
+   "categoryId": "487a3d4b-41b4-4635-a939-5b6f6ab7652e",
+   "unit": "pár",
+   "code": "194"
+  },
+  {
+   "id": "3132",
+   "name": "Fióksín golyós, teljes kihúzású, nyomásra nyíló",
+   "price": 1536,
+   "categoryId": "487a3d4b-41b4-4635-a939-5b6f6ab7652e",
+   "unit": "pár",
+   "code": "195"
+  },
+  {
+   "id": "3137-8448",
+   "name": "Fióksín rejtett fékes részleges kihúzású",
+   "price": 3030,
+   "categoryId": "487a3d4b-41b4-4635-a939-5b6f6ab7652e",
+   "unit": "pár",
+   "code": "199"
+  },
+  {
+   "id": "2583",
+   "name": "Fióksín rejtett fékes, teljes kihúzású",
+   "price": 4304,
+   "categoryId": "487a3d4b-41b4-4635-a939-5b6f6ab7652e",
+   "unit": "pár",
+   "code": "133"
+  },
+  {
+   "id": "7823",
+   "name": "Fióksín C rejtett, teljes kihúzású",
+   "price": 3905,
+   "categoryId": "487a3d4b-41b4-4635-a939-5b6f6ab7652e",
+   "unit": "pár",
+   "code": "133"
+  },
+  {
+   "id": "7824",
+   "name": "Tip-on szerkezet C",
+   "price": 9030,
+   "categoryId": "487a3d4b-41b4-4635-a939-5b6f6ab7652e",
+   "unit": "garnitúra",
+   "code": "133"
+  },
+  {
+   "id": "7825",
+   "name": "Tip-on szerkezet C szinkronizáló rúd",
+   "price": 930,
+   "categoryId": "487a3d4b-41b4-4635-a939-5b6f6ab7652e",
+   "unit": "szál",
+   "code": "133"
+  },
+  {
+   "id": "13552",
+   "name": "Fióksín rejtett fékes teljes kihúzású, (16-19mm)",
+   "price": 3283,
+   "categoryId": "487a3d4b-41b4-4635-a939-5b6f6ab7652e",
+   "unit": "pár",
+   "code": "133"
+  },
+  {
+   "id": "3147",
+   "name": "Fióksín rejtett, nyomásra nyíló, részleges kihúzású",
+   "price": 1929,
+   "categoryId": "487a3d4b-41b4-4635-a939-5b6f6ab7652e",
+   "unit": "pár",
+   "code": "201"
+  },
+  {
+   "id": "3141",
+   "name": "Fióksín rejtett, nyomásra nyíló, teljes kihúzású",
+   "price": 4493,
+   "categoryId": "487a3d4b-41b4-4635-a939-5b6f6ab7652e",
+   "unit": "pár",
+   "code": "200"
+  },
+  {
+   "id": "14759",
+   "name": "Fióksín rejtett nyomásra nyíló teljes kihúzású (16-19mm)",
+   "price": 5933,
+   "categoryId": "487a3d4b-41b4-4635-a939-5b6f6ab7652e",
+   "unit": "pár",
+   "code": "200"
+  },
+  {
+   "id": "14854",
+   "name": "Fióksín 3D0FPO szinkronizáló rúd",
+   "price": 1553,
+   "categoryId": "487a3d4b-41b4-4635-a939-5b6f6ab7652e",
+   "unit": "db",
+   "code": "200"
+  }
+ ]
+}
