@@ -4,7 +4,8 @@ import {defineStore} from 'pinia'
  * products.json published by the "Scrape products" GitHub Action (see scraper/).
  * Can be overridden on the Szinkronizáció page.
  */
-export const DEFAULT_DATA_URL = 'https://raw.githubusercontent.com/bdavid9393/tmb_cst/data/products.json'
+export const DEFAULT_DATA_URL = 'https://raw.githubusercontent.com/Dymer/tmb_cst/data/products.json'
+const OLD_DATA_URLS = ['https://raw.githubusercontent.com/bdavid9393/tmb_cst/data/products.json']
 
 export function toNumber(value) {
     if (typeof value === 'number') return value;
@@ -57,7 +58,7 @@ export const useSettingsStore = defineStore('settingsStore', {
         },
         // Fix data saved by older versions of the app
         migrate() {
-            if (!this.dataUrl) {
+            if (!this.dataUrl || OLD_DATA_URLS.includes(this.dataUrl)) {
                 this.dataUrl = DEFAULT_DATA_URL;
             }
             this.products.forEach(product => {
