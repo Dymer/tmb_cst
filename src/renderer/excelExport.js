@@ -12,7 +12,9 @@ function toNumber(value) {
 }
 
 export default async function generateExcel(data) {
-    const ExcelJS = require('exceljs');
+    // Loaded on demand (large library); works both in the browser and in Electron
+    const excelModule = await import('exceljs');
+    const ExcelJS = excelModule.default ?? excelModule; // the bundled build has no default export
 
     const workbook = new ExcelJS.Workbook();
     const worksheet = workbook.addWorksheet('Árajánlat');
