@@ -8,7 +8,7 @@
 
       <v-card-text>
         <p>
-          Az árakat egy szerveren futó program tölti le minden éjjel a butorkellek.hu-ról.
+          Az árakat egy szerveren futó program tölti le hetente (hétfőn hajnalban) a butorkellek.hu-ról.
           Itt ennek az eredményét lehet letölteni.
         </p>
 

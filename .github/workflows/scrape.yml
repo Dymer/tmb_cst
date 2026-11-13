@@ -2,7 +2,7 @@ name: Scrape products
 
 on:
   schedule:
-    - cron: "0 1 * * *" # every night, 01:00 UTC
+    - cron: "0 1 * * 1" # every Monday, 01:00 UTC
   workflow_dispatch: # "Run workflow" button on the Actions tab
   push: # also run when the scraper or the category list changes
     branches: [master]
