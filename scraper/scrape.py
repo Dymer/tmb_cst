@@ -19,6 +19,8 @@ from datetime import datetime, timezone
 
 import requests
 from bs4 import BeautifulSoup
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 BASE = "https://www.butorkellek.hu/"
 MAX_RETRY = 3
@@ -30,6 +32,20 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; tmbcst-price-sync)"}
 
 session = requests.Session()
 session.headers.update(HEADERS)
+# The shop closes idle keep-alive connections; the next request on such a connection
+# fails with "Remote end closed connection". Retry those (and 429/5xx answers)
+# immediately on a fresh connection, without logging noise.
+session.mount("https://", HTTPAdapter(max_retries=Retry(
+    total=4,
+    connect=4,
+    read=4,
+    status=3,
+    backoff_factor=1,
+    status_forcelist=(429, 500, 502, 503, 504),
+    allowed_methods=frozenset({"GET"}),
+    respect_retry_after_header=True,
+    raise_on_status=False,
+)))
 
 for stream in (sys.stdout, sys.stderr):
     try:
